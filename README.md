@@ -2,7 +2,7 @@
 Projects and homework assignments written with Python
 
 
-Pasadena City College Classes:
+##Pasadena City College Classes:
 
 CIS 012
 
