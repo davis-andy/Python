@@ -201,7 +201,8 @@ Tie!
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Format your output to two decimal places.
 
-<br></br>
+<br />
+<br />
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Define the following function (value returning function):
 
