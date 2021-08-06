@@ -5,7 +5,7 @@
 
 2. Write Python statements that output the values of **num1**, **num2**, **num3**, and **average**.  Your program output must be exactly the same as the output in the OUTPUT section, except font style.
 
-*************************************************************************************
+\*************************************************************************************
 
 OUTPUT:
 
