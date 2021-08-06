@@ -2,20 +2,32 @@
 
 ## Ch03-01
 1. Write a Python program that prompts the user to input three numbers.  The program should then output the numbers in ascending order.
-\***__Do NOT use nested conditionals (nested-if).  Use one if-elif statment.__
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\***__Do NOT use nested conditionals (nested-if).  Use one if-elif statment.__
 
 2. Try the following combinations for testing:
-1, 2, 3
-1, 3, 2
-2, 1, 3
-2, 3, 1
-3, 2, 1
-3, 1, 2
-3, 1, 1
-1, 1, 3
-1, 3, 1
-3, 1, 3
-3, 3, 3
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1, 2, 3
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1, 3, 2
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2, 1, 3
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2, 3, 1
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3, 2, 1
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3, 1, 2
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3, 1, 1
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1, 1, 3
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1, 3, 1
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3, 1, 3
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3, 3, 3
 
 \*************************************************************************************
 
@@ -73,7 +85,8 @@ Paper covers rock,
 Rock smashes scissor,
 Scissors cut paper,
 or Nobody wins.
-\***__Use nested conditionals (nested-if).  Use the outer if for Player1, and the inner if for Player 2.__
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\***__Use nested conditionals (nested-if).  Use the outer if for Player1, and the inner if for Player 2.__
 
 \*************************************************************************************
 
