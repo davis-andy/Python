@@ -223,10 +223,41 @@ OUTPUT:
 
 \*************************************************************************************
 <pre>
-Enter the elapsed time in seconds: <b>9630</b>
+Enter the time the call starts in 24-hour rotation:
+<b>13:10</b>
 
-The elapsed time in seconds = 9630
+Enter the first two letters of the day of the week:
+<b>Mo</b>
 
-The equivalent time in hours:minutes:seconds = 2:40:30
+Enter the length of the call in minutes:
+<b>10</b>
+
+Cost of the call: $4.00
+</pre>
+\*************************************************************************************
+<pre>
+Enter the time the call starts in 24-hour rotation:
+<b>20:10</b>
+
+Enter the first two letters of the day of the week:
+<b>fR</b>
+
+Enter the length of the call in minutes:
+<b>10</b>
+
+Cost of the call: $2.50
+</pre>
+\*************************************************************************************
+<pre>
+Enter the time the call starts in 24-hour rotation:
+<b>10:10</b>
+
+Enter the first two letters of the day of the week:
+<b>su</b>
+
+Enter the length of the call in minutes:
+<b>10</b>
+
+Cost of the call: $1.50
 </pre>
 \*************************************************************************************
