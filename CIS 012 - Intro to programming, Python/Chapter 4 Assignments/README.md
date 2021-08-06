@@ -53,10 +53,9 @@ b is a vowel: False.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A few sample years: MCM is 1900, MCML is 1950, MCMLX is 1960, MCMXL is 1940, MCMLXXXIX is 1989.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Hints: USe division and mod.)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Hints: Use division and mod.)
 
 <br></br>
-
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Assume the year is between 1000 and 3000.
 
