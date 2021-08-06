@@ -98,7 +98,7 @@ X      1      2      3      4      5      6      7      8      9      10
 1. Create a program that uses **while** loops to perform the following steps.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Prompt the user to input two positive integers (no zero or negative). \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;variables: **firstNum** and **secondNum** (**firstNum** must be less than **secondNum**).  Validate the user's input; prompt the user again if **firstNum** is not less than **secondNum** (use while loop).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;variables: **firstNum** and **secondNum** (**firstNum** must be less than **secondNum**).  Validate the user's input; prompt the user again if **firstNum** is not less than **secondNum** (use while loop).
 
 2. Write a Python program to score the paper-rock-scissor game; user vs. computer.
 
