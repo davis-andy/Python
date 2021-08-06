@@ -434,7 +434,8 @@ Bye!
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;returned value by **sumSquareOddNumbers()**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e. Create a user-defined function called **main()** to repeat a program (use while loop) and execute the user-defined functions; \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**validateUserInput()**, **oddNumbers()**, **sumEvenNumbers()**, and **sumSquareOddNumbers()**.  **main()** is a void function; doesn't accept any arguments.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**validateUserInput()**, **oddNumbers()**, **sumEvenNumbers()**, and **sumSquareOddNumbers()**.  **main()** is a void function; doesn't accept any \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;arguments.
 
 <br />
 
