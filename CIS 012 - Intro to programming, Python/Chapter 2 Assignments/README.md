@@ -9,7 +9,7 @@
 
 OUTPUT:
 
-- Insert a line space between lines.
+-- Insert a line space between lines.
 
 *************************************************************************************
 ```py
