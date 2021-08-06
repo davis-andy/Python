@@ -58,33 +58,18 @@ Done!
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To create a list called **MT**, use the following:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**MT = []**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**MT = [ ]**
 
+<br />
+<br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Recall that some numbers are formed by using a kind of subtraction of one Roman "digit"; for example, IV is 4 produced as V minus I, XL is 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;40, CM is 900, and so on.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use three while loops (counter-controlled):
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use one while loop to add elemets to the **MT** list and set initial value to be **0**.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A few sample years: MCM is 1900, MCML is 1950, MCMLX is 1960, MCMXL is 1940, MCMLXXXIX is 1989.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use another while loop to change elements (Do NOT set values manually, except the first row and first column).
 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Hints: Use division and mod.)
-
-<br></br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Assume the year is between 1000 and 3000.
-
-<br></br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Define the following functions (value returning functions):
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**returnRomanThousandsPlace()**: Accepts a thousands place integer number as an argument and returns the roman numerals for the
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;thousands place.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**returnRomanHundredsPlace()**: Accepts a hundreds place integer number as an argument and returns the roman numerals for the
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hundreds place.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**returnRomanTensPlace()**: Accepts a tens place integer number as an argument and returns the roman numerals for the tens place.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**returnRomanOnesPlace()**: Accepts a ones place integer number as an argument and returns the roman numerals for the ones place.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use the other to display elements.
 
 \*************************************************************************************
 
