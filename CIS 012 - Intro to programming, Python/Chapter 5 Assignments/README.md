@@ -75,33 +75,27 @@ Done!
 
 OUTPUT:
 
-&ndash; The bold text is the user's input.
+&ndash; Use tab after displaying each number.
 
 \*************************************************************************************
 <pre>
-Enter a year between 1000 and 3000:
-<b>1952</b>
-
-Your number in roman numerals is: MCMLII.
-</pre>
-\*************************************************************************************
-<pre>
-Enter a year between 1000 and 3000:
-<b>2048</b>
-
-Your number in roman numerals is: MMXLVIII.
-</pre>
-\*************************************************************************************
-<pre>
-Enter a year between 1000 and 3000:
-<b>2500</b>
-
-Your number in roman numerals is: MMD.
+Multiplication Table:
+X      1      2      3      4      5      6      7      8      9      10
+1      1      2      3      4      5      6      7      8      9      10
+2      2      4      6      8      10     12     14     16     18     20
+3      3      6      9      12     15     18     21     24     27     30
+4      4      8      12     16     20     24     28     32     36     40
+5      5      10     15     20     25     30     35     40     45     50
+6      6      12     18     24     30     36     42     48     54     60
+7      7      14     21     28     35     42     49     56     63     70
+8      8      16     24     32     40     48     56     64     72     80
+9      9      18     27     36     45     54     63     72     81     90
+10     10     20     30     40     50     60     70     80     90     100
 </pre>
 \*************************************************************************************
 
-## Ch04-03
-1. Create a Python module called **RPSMod.py**, and define new functions (see #2) in the **RPSMod.py** (contains user-defined functions only); do NOT include an code calling the user defined functions.
+## Ch05-03
+1. Create a program that uses **while** loops to perform the following steps.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\***__Do NOT include any user-defined functions in *Assignment_Ch04-03_yourLastName.py* file__
 
