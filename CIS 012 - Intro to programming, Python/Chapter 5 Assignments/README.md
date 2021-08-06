@@ -417,9 +417,7 @@ Bye!
 ## Ch05-05
 1. Create a program that uses **while** loops to perform the following steps.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Prompt the user to input two positive integers (no zero or negative). \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;variables: **firstNum** and **secondNum** (**firstNum** must be less than **secondNum**).  Validate the user's input; prompt the user again if \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**firstNum** is not less than **secondNum** (use while loop).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Create a user-defined function called **validateUserInput()** to prompt the user to input two positive integers and validate the user's input.  **validateUserInput()** is a value returning function; doesn't accept any arguments and returns **firstNum** and **secondNum**.  Variables: **firstNum** and **secondNum** (**firstNume** must be less than **secondNum**). (use while loop to calidate and repeat).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Output all odd numbers between **firstNum** and **secondNum**. (use while loop).
 
@@ -433,25 +431,37 @@ Bye!
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#A
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while loop
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**validateUserInput()**
 
 <br />
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#B
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while loop
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**oddNumbers()**
 
 <br />
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#C
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while loop
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**sumEvenNumbers()**
 
 <br />
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#D
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while loop
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**sumSquareOddNumbers()**
+
+<br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#E
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**main()**
+
+<br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#Executing Program.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;main()
 
 <br />
 
