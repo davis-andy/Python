@@ -103,8 +103,26 @@ Your number in roman numerals is: MMD.
 ## Ch04-03
 1. Create a Python module called **RPSMod.py**, and define new functions (see #2) in the **RPSMod.py** (contains user-defined functions only); do NOT include an code calling the user defined functions.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\*\*\*__Do NOT include any user-defined functions in *Assignment_Ch04-03_yourLastName.py* file__
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\***__Do NOT include any user-defined functions in *Assignment_Ch04-03_yourLastName.py* file__
 
+2. Write a Python program to score the paper-rock-scissor game; user vs. computer.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The user types in either (**P** or **p**), (**R** or **r**), or (**S** or **s**).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Computer randomly generates either (**P** or **p**), (**R** or **r**), or (**S** or **s**).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The program then announces the winner as well as the basis for determining the winner:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Paper covers rock,
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rock smashes scissors,
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scissors cut paper,
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or Tie!.
+
+<br></br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\***__Computer generates only integer values.  Do NOT use a list.__
 \*************************************************************************************
 
 OUTPUT:
