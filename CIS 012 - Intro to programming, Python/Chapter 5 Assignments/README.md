@@ -54,8 +54,7 @@ Done!
 \*************************************************************************************
 
 ## Ch05-02
-1. Write a Python program that creates and stores a multiplication table in a list called **MT**, and then displays elements.\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Do NOT create additional lists.
+1. Write a Python program that creates and stores a multiplication table in a list called **MT**, and then displays elements.  Do NOT create additional lists.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To create a list called **MT**, use the following:
 
