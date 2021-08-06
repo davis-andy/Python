@@ -101,7 +101,9 @@ Your number in roman numerals is: MMD.
 \*************************************************************************************
 
 ## Ch04-03
-1. Write Python statements that output the example in the OUTPUT section.
+1. Create a Python module called **RPSMod.py**, and define new functions (see #2) in the **RPSMod.py** (contains user-defined functions only); do NOT include an code calling the user defined functions.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\*\*\*__Do NOT include any user-defined functions in *Assignment_Ch04-03_yourLastName.py* file__
 
 \*************************************************************************************
 
