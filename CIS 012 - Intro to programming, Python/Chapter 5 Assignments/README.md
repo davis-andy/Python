@@ -421,7 +421,8 @@ Bye!
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**validateUserInput()** is a value returning function; doesn't accept any arguments and returns **firstNum** and **secondNum**. \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Variables: **firstNum** and **secondNum** (**firstNume** must be less than **secondNum**). (use while loop to calidate and repeat).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Output all odd numbers between **firstNum** and **secondNum**. (use while loop).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Create a user-defined function called **oddNumbers()** to output all odd numbers between **firstNum** and **secondNum** (use while loop).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**oddNumbers()** is a void function; accepts **firstNum** and **secondNum** as arguments and doesn't return any values.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. Output the sum of all even numbers between **firstNum** and **secondNum**. (use while loop).
 
