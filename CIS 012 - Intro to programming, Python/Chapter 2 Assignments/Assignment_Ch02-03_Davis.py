@@ -1,0 +1,10 @@
+firstName = input("Enter your first name:")
+payRate = input("Enter your pay rate per hour:")
+workHours = input("Enter the number of hours you worked last week:")
+salary = float(payRate)*float(workHours)
+
+print()
+print("First Name:", firstName)
+print("Pay Rate: $" + str(float(payRate)))
+print("Hours Worked:" , float(workHours))
+print(f"Salary: ${salary:.2f}")
