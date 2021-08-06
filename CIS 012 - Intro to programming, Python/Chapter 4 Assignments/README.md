@@ -39,7 +39,9 @@ b is a vowel: False.
 
 ## Ch04-02
 1. Write a Python program that accepts a year written as a four-digit Arabic (ordinary) numberal and outputs the year written in Roman numbers.
+
 <br></br>
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Important**:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Roman numerals are V for 5, X for 10, L for 50, C for 100, D for 500, and M for 1,000.
@@ -55,7 +57,6 @@ b is a vowel: False.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Hints: USe division and mod.)
 
 <br></br>
-<br></br>
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Assume the year is between 1000 and 3000.
@@ -64,9 +65,11 @@ b is a vowel: False.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Define the following functions (value returning functions):
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**returnRomanThousandsPlace()**: Accepts a thousands place integer number as an argument and returns the roman numerals for the thousands place.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**returnRomanThousandsPlace()**: Accepts a thousands place integer number as an argument and returns the roman numerals for the
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;thousands place.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**returnRomanHundredsPlace()**: Accepts a hundreds place integer number as an argument and returns the roman numerals for the hundreds place.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**returnRomanHundredsPlace()**: Accepts a hundreds place integer number as an argument and returns the roman numerals for the
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hundreds place.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**returnRomanTensPlace()**: Accepts a tens place integer number as an argument and returns the roman numerals for the tens place.
 
