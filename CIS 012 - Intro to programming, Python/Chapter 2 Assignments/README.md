@@ -22,3 +22,35 @@ num3 is -25.
 The average of num1, num2, and num3 is 42.67.
 ```
 \*************************************************************************************
+
+## Ch02-02
+1. Write Python statements that declare the following variables: **firstName** of type string and **studyHours** of type float.  Prompt and input a string into **firstName** and a float value into **studyHours**.
+
+2. Write a Python statement that output the following lines:
+Provided that the user entered **John** and **4.5**.
+**Hello, John!**
+**On Saturday, you need to study 4.5 hours for the exam.**
+
+\*************************************************************************************
+
+OUTPUT:
+
+&ndash; The bold text is the user's input.
+
+\*************************************************************************************
+<pre>
+Enter your first name: <b>John</b>.
+Enter your expected study hours on Saturday: <b>4.5</b>
+
+Hello, John!
+On Saturday, you need to study 4.5 hours for the exam.
+</pre>
+\*************************************************************************************
+<pre>
+Enter your first name: <b>Sam</b>.
+Enter your expected study hours on Saturday: <b>2.5</b>
+
+Hello, Sam!
+On Saturday, you need to study 2.5 hours for the exam.
+</pre>
+\*************************************************************************************
