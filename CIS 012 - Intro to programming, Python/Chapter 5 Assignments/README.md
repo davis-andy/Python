@@ -425,7 +425,8 @@ Bye!
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**oddNumbers()** is a void function; accepts **firstNum** and **secondNum** as arguments and doesn't return any values.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. Create a user-defined function called **sumEvenNumbers()** to output the sum of all even numbers between **firstNum** and **secondNum**  \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(use while loop).  **sumEvenNumbers()** is a value returning function; accepts **firstNum** and **secondNum** as arguments and returns the sum of all even numbers.  Declare a variable called **sumEven** in the **main()** to store the returned value by **sumEvenNumbers()**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(use while loop).  **sumEvenNumbers()** is a value returning function; accepts **firstNum** and **secondNum** as arguments and returns the sum \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of all even numbers.  Declare a variable called **sumEven** in the **main()** to store the returned value by **sumEvenNumbers()**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. Output the sum of the square of the odd numbers between **firstNum** and **secondNum**. (use while loop).
 
