@@ -9,7 +9,7 @@
 
 OUTPUT:
 
--- Insert a line space between lines.
+&ndash; Insert a line space between lines.
 
 *************************************************************************************
 ```py
