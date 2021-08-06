@@ -429,8 +429,8 @@ Bye!
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of all even numbers.  Declare a variable called **sumEven** in the **main()** to store the returned value by **sumEvenNumbers()**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. Create a user-defined function called **sumSquareOddNumbers()** to output the sum of the square of the odd numbers between **firstNum** \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and **secondNum** (use while loop).  **sumSquareOddNumbers()** is a value returning function; accepts **firstNum** and **secondNum** as arguments and returns the sum \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of the square of the odd numbers.  Declare a variable called **sumSquareOdd** in the **main()** to store the returned value by **sumSquareOddNumbers()**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and **secondNum** (use while loop).  **sumSquareOddNumbers()** is a value returning function; accepts **firstNum** and **secondNum** as \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;arguments and returns the sum of the square of the odd numbers.  Declare a variable called **sumSquareOdd** in the **main()** to store the returned value by **sumSquareOddNumbers()**
 
 <br />
 
