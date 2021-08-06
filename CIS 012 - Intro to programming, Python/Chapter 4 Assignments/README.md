@@ -39,7 +39,6 @@ b is a vowel: False.
 
 ## Ch04-02
 1. Write a Python program that accepts a year written as a four-digit Arabic (ordinary) numberal and outputs the year written in Roman numbers.
-
 <br></br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Important**:
 
