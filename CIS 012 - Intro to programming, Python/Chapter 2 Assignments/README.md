@@ -78,7 +78,7 @@ Salary: $443.75
 \*************************************************************************************
 
 ## Ch02-04
-1. Write a Python program prompts the user to input the elapsed time for an event in seconds.  The program then outputs the elapsed time in hours, minutes, and seconds.  Hint: use // and %
+1. Write a Python program that prompts the user to input the elapsed time for an event in seconds.  The program then outputs the elapsed time in hours, minutes, and seconds.  Hint: use // and %
 
 \*************************************************************************************
 
