@@ -371,17 +371,17 @@ Write a Python program for a calculator.  Your program should present a calculat
 
 ![calculator](https://github.com/davis-andy/Python/blob/main/CIS%20112%20-%20Advanced%20Programming%2C%20Python/images/calculator.PNG)
 
-*It needs to be able to carry out addition, subtraction, division and multiplication.
-*It needs to be able to handle positive and negative numbers.
-*It needs to be able to accept integers and floating point numbers.
-*Clear button is to clear the screen during calculation or after the calculation.  When this button is pressed, windows needs to be cleaned as in the above picture.
-*For all buttons (numbers and functions), you will need to use Lambda functions.
-*All buttons need to be placed exactly same as above picture.
-*Entire Calculator size and button size should be larger than the picture since it was reduced to display without taking up too much space.
-*You will need to use several functions.
-*Make sure to provide proper comments for the program.
-*Windows color needs to be different than button or frame color.
-*Frame color and button color needs to be different.
-*Only use tkinter package.
-*Do not create a class for it. 
-*Only use functions for it.
+* It needs to be able to carry out addition, subtraction, division and multiplication.
+* It needs to be able to handle positive and negative numbers.
+* It needs to be able to accept integers and floating point numbers.
+* Clear button is to clear the screen during calculation or after the calculation.  When this button is pressed, windows needs to be cleaned as in the above picture.
+* For all buttons (numbers and functions), you will need to use Lambda functions.
+* All buttons need to be placed exactly same as above picture.
+* Entire Calculator size and button size should be larger than the picture since it was reduced to display without taking up too much space.
+* You will need to use several functions.
+* Make sure to provide proper comments for the program.
+* Windows color needs to be different than button or frame color.
+* Frame color and button color needs to be different.
+* Only use tkinter package.
+* Do not create a class for it. 
+* Only use functions for it.
