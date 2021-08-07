@@ -49,7 +49,27 @@ Write a python program using turtle to draw following squares with initial side 
 Here is the output of the program: \
 ![assignment 2](https://github.com/davis-andy/Python/blob/main/CIS%20112%20-%20Advanced%20Programming%2C%20Python/images/assignment2.PNG)
 
-## Ch08-03
+## Assignment 3
+Write a Python program using turtle to draw polygons.  Name the program as Assignment3_yourname.py.  Your name consist of first initial of the first name and up to 5 letters of your last name.
+
+<br />
+
+This assignment mainly uses turtle module but do not use circle() method of the turtle.
+
+You will need to create several functions for this assignment to draw polygons.
+
+1. angle(sides):  calculates the angle to turn with user provided number of sides of the polygon.
+
+2. drawShape(Turtle, sides, length):  Draws the polygon based on the user input of # of sides and lenght of the side.
+
+3. SpinPolygon(Turtle, sides, angle, length, repeat):  Draws the polygon number of times while turn polygon by the angle on the left each time.   Below is a sample image for rotating 5 times. \
+![turtle polygon](https://github.com/davis-andy/Python/blob/main/CIS%20112%20-%20Advanced%20Programming%2C%20Python/images/assignment2.PNG)
+
+![turtle scaled](https://github.com/davis-andy/Python/blob/main/CIS%20112%20-%20Advanced%20Programming%2C%20Python/images/assignment2.PNG)
+
+## Assignment 4
+
+## Assignment 5
 1. Write a Python program that test the function mand the functions discussed in parts a through g.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create the following lists:
@@ -186,3 +206,13 @@ inStock after a call to setInStock:
 30   52   96   184
 </pre>
 \*************************************************************************************
+
+## Assignment 6
+
+## Assignment 7
+
+## Assignment 8
+
+## Assignment 9
+
+## Project 1
