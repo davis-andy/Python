@@ -16,7 +16,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;colon): \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**13:30**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The day of the week will be read as one of following pairs of character values, which are stored in two variables of type string (ex. a, b = "Mo"): \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The day of the week will be read as one of following pairs of character values, which are stored in two variables of type string (ex. a, b = \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Mo"): \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Mo Tu We Th Fr Sa Su**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Be sure to allow the user to use either uppercase or lowercase letters or a combination of the two.  The number of minutes will be input as a 
