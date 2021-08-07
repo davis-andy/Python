@@ -354,10 +354,16 @@ Output file name needs to be: "MergedFile.pdf".
 
 Do not hardcode file names in the program.  As I showed in my lecture, use regular expression to include all the pdf files to be merged.  Also, there may be other types of files but only the pdf files need to be concatenated.
 
-You do not need to attach merged file for it, only the Python file needs to be submitted.
-
 Use PdfFileMerger class as explained during the class.
 
 ## Assignment 9
+Create a Python program which merges two files together.
+
+[pythonlearn_ch8MissingPages.pdf]() \
+[From_pythonlearn_ch8.pdf]()
+
+<br />
+
+The first file (pythonlearn_ch8MissingPages.pdf) has missing pages (95 - 98), and the second file (From_pythonlearn_ch8.pdf) has missing page.  Make sure missing pages are merged into the first file properly.
 
 ## Project 1
