@@ -329,13 +329,17 @@ X      1      2      3      4      5      6      7      8      9      10
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. Write the definition of the funciton **doubleArray** that initializes the elemets of **beta** to two times the corresponding elements in **alpha**.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. Write the definition of the function **copyGamma** that sets the elements of the first row of **inStock** from **gamma** and the remaining rows of **inStock** to three times the previous row of **inStock**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. Write the definition of the function **copyGamma** that sets the elements of the first row of **inStock** from **gamma** and the remaining rows \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of **inStock** to three times the previous row of **inStock**.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e. Write the definition of the function **copyAlphaBeta** that stores **alpha** into the first five rows of **inStock** and **beta** into the last five rows of **inStock**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e. Write the definition of the function **copyAlphaBeta** that stores **alpha** into the first five rows of **inStock** and **beta** into the last five rows of \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**inStock**.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f. Write the definition of the function **printArray** that prints any one-dimentionsl list.  The funciton must contain only one loop to print any one-dimensional list.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f. Write the definition of the function **printArray** that prints any one-dimentionsl list.  The funciton must contain only one loop to print any \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;one-dimensional list.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g. Write the definition of the function **inStock** that prompts the user to input the elements for the first column of **inStock**.  The function should then set the elements in the remaingin columns to two times the corresponding element in the previous column, minues the corresponding element in **delta**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g. Write the definition of the function **inStock** that prompts the user to input the elements for the first column of **inStock**.  The function \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;should then set the elements in the remaingin columns to two times the corresponding element in the previous column, minues the corresponding element in **delta**.
 
 \*************************************************************************************
 
