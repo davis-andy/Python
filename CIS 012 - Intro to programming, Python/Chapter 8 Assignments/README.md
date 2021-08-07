@@ -352,41 +352,93 @@ OUTPUT:
 
 \*************************************************************************************
 <pre>
-Enter the time the call starts in 24-hour rotation:
-<b>13:10</b>
+Alpha after initialization:
+0    0    0    0    0    0    0    0    0    0    
+0    0    0    0    0    0    0    0    0    0
 
-Enter the first two letters of the day of the week:
-<b>Mo</b>
 
-Enter the length of the call in minutes:
-<b>10</b>
+Enter 20 integers:
+<b>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20</b>
 
-Cost of the call: $4.00
-</pre>
-\*************************************************************************************
-<pre>
-Enter the time the call starts in 24-hour rotation:
-<b>20:10</b>
 
-Enter the first two letters of the day of the week:
-<b>fR</b>
+Alpha after reading 20 numbers:
+1    2    3    4    5    6    7    8    9    10
+11   12   13   14   15   16   17   18   19   20
 
-Enter the length of the call in minutes:
-<b>10</b>
 
-Cost of the call: $2.50
-</pre>
-\*************************************************************************************
-<pre>
-Enter the time the call starts in 24-hour rotation:
-<b>10:10</b>
+Beta after a call to doubleArray:
+2    4    6    8    10   12   14   16   18   20 
+22   24   26   28   30   32   34   36   38   40
 
-Enter the first two letters of the day of the week:
-<b>su</b>
 
-Enter the length of the call in minutes:
-<b>10</b>
+inStock after a call to copyGamma:
+11      13      15      17
+33      39      45      51
+99      117     135     153
+297     351     405     459
+891     1053    1215    1377
+2673    3159    3645    4131
+8019    9477    10935   12393
+24057   28431   32805   37179
+72171   85293   98415   111537
+216513  255879  295245  334611
 
-Cost of the call: $1.50
+
+inStock after a call to copyAlphaBeta:
+1    2    3    4
+5    6    7    8
+9    10   11   12
+13   14   15   16
+17   18   19   20
+2    4    6    8
+10   12   14   16
+18   20   22   24
+26   28   30   32
+34   36   38   40
+
+
+Enter 10 integers:
+<b>21
+22
+23
+24
+25
+26
+27
+28
+29
+30</b>
+
+
+inStock after a call to setInStock:
+21   39   75   147
+22   39   73   141
+23   44   86   170
+24   42   78   150
+25   40   70   130
+26   43   77   145
+27   47   87   167
+28   45   79   147
+29   57   113  225
+30   52   96   184
 </pre>
 \*************************************************************************************
