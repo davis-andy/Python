@@ -40,7 +40,7 @@ Thank you for playing! \
 \>>>
 
 ## Assignment 2
-Write a Python program using turtle to draw polygons.  Name the program as Assignment2_yourname.py.  Your name consist of first initial of the first name and up to 5 letters of your last name.
+Write a Python program using turtle to draw polygons.
 
 <br />
 
@@ -50,7 +50,7 @@ Here is the output of the program: \
 ![assignment 2](https://github.com/davis-andy/Python/blob/main/CIS%20112%20-%20Advanced%20Programming%2C%20Python/images/assignment2.PNG)
 
 ## Assignment 3
-Write a Python program using turtle to draw polygons.  Name the program as Assignment3_yourname.py.  Your name consist of first initial of the first name and up to 5 letters of your last name.
+Write a Python program using turtle to draw polygons.
 
 <br />
 
@@ -251,38 +251,25 @@ inStock after a call to setInStock:
 \*************************************************************************************
 
 ## Assignment 6
-Create a Python program called Assignment6_yourLastName.py. (Replace yourLastName with your last name.). 
-
- Your program will take file name and it's content from the user.
-Save all the input from the user to the file that was created. 
-Once user is done with providing the content, display the file content on the monitor.   
-Make sure the validity of the file name. 
-Valid file name should adhere to the following rules:
-Should begin with Alphabets or "_".
-Name can consist of digits, Alphabets and "_".
-Can not contain any special characters.
-For this assignment, filename needs to have an extension and any extension will be fine.
- If the filename that user provides is not a valid one, you need to inform the user about it and ask for a proper name.
-Once proper filename has been entered, take an input line by line.  After each line input, ask user whether to add more lines and depends on the response, your program will take additional input or stop taking it.
-Once done with input for a file, your program needs to ask user whether to create another file or not.  Depends on the response from the user, your program either stop altogether or start to take another line by line input for a new file.
-After closing the file, your program needs to display the file content to the user.
-Once program execution is complete, files should have been created  with all the content provided by the user in the directory where your program is.
-For this assignment, use of functions and regular expression is required.
-Grading policy:
-If it doesn't run (any error): at least 70% point deduction.
-
-Improper code formatting or lack of appropriate comments: 10% to 30% point deduction.
-
-If it doesn't produce the required result:  at least 40% point deduction.
-
-If your source code file contains the topics that haven't been discussed in class, you will loose at least 30% of points.
-
-If your program doesn't use regular expression or functions, at least 30% point deduction.
-Late submission will get 20% to 40% point deduction depends on how late it is.
+* Your program will take file name and it's content from the user.
+* Save all the input from the user to the file that was created. 
+* Once user is done with providing the content, display the file content on the monitor.   
+* Make sure the validity of the file name. 
+* Valid file name should adhere to the following rules:
+  * Should begin with Alphabets or "_".
+  * Name can consist of digits, Alphabets and "_".
+  * Can not contain any special characters.
+  * For this assignment, filename needs to have an extension and any extension will be fine.
+* If the filename that user provides is not a valid one, you need to inform the user about it and ask for a proper name.
+* Once proper filename has been entered, take an input line by line.  After each line input, ask user whether to add more lines and depends on the response, your program will take additional input or stop taking it.
+* Once done with input for a file, your program needs to ask user whether to create another file or not.  Depends on the response from the user, your program either stop altogether or start to take another line by line input for a new file.
+* After closing the file, your program needs to display the file content to the user.
+* Once program execution is complete, files should have been created  with all the content provided by the user in the directory where your program is.
+* For this assignment, use of functions and regular expression is required.
 
 \=====================================================================
 
-Sample input/output   (User input is in bold)
+Sample input/output   (User input is in **bold**)
 
 <br />
 
@@ -290,46 +277,46 @@ Sample input/output   (User input is in bold)
 
 \>>> \
 \============= RESTART:  =============
-Please enter a filename: abc \
+Please enter a filename: **abc** \
 File name needs to have an extension. \
-Plese enter a proper filename: abc.4#r \
+Plese enter a proper filename: **abc.4#r** \
 Filename can contain only Alphabets, digits and "_". \
-Plese enter a proper filename: 23ab.exe \
+Plese enter a proper filename: **23ab.exe** \
 Filename only can start with Alphabets or '_'. \
-Plese enter a proper filename: abc#$.txt \
+Plese enter a proper filename: **abc#$.txt** \
 Filename can contain only Alphabets, digits and "_". \
-Plese enter a proper filename: abc@#abc.txt \
+Plese enter a proper filename: **abc@#abc.txt** \
 Filename can contain only Alphabets, digits and "_". \
-Plese enter a proper filename: Test1.txt \
-Please enter a sentence: This is the first line. \
-Do you want to add more lines? (Y/N) y \
-Please enter a sentence: This is the second line. \
-Do you want to add more lines? (Y/N) n \
+Plese enter a proper filename: **Test1.txt** \
+Please enter a sentence: **This is the first line.** \
+Do you want to add more lines? (Y/N) **y** \
+Please enter a sentence: **This is the second line.** \
+Do you want to add more lines? (Y/N) **n** \
 
 This is what's entered into file Test1.txt. \
-\=============================
-This is the first line.
-This is the second line.
-\=============================
-Do you want to create another file? (Y/N) y
-Let's create another file.
-Please enter a filename: 3ab.doc
-Filename only can start with Alphabets or '_'.
-Plese enter a proper filename: Test.doc
-Please enter a sentence: Test.doc the first line.
-Do you want to add more lines? (Y/N) y
-Please enter a sentence: Test.doc !@#$%&*()
-Do you want to add more lines? (Y/N) y
-Please enter a sentence: Test.doe the third line.
-Do you want to add more lines? (Y/N) n
+\============================= \
+This is the first line. \
+This is the second line. \
+\============================= \
+Do you want to create another file? (Y/N) **y** \
+Let's create another file. \
+Please enter a filename: **3ab.doc** \
+Filename only can start with Alphabets or '_'. \
+Plese enter a proper filename: **Test.doc** \
+Please enter a sentence: **Test.doc the first line.** \
+Do you want to add more lines? (Y/N) **y** \
+Please enter a sentence: **Test.doc !@#$%&*()** \
+Do you want to add more lines? (Y/N) **y** \
+Please enter a sentence: **Test.doe the third line.** \
+Do you want to add more lines? (Y/N) **n** \
 
-This is what's entered into file Test.doc.
-\=============================
-Test.doc the first line.
-Test.doc !@#$%&*()
-Test.doe the third line.
-\=============================
-Do you want to create another file? (Y/N) n
+This is what's entered into file Test.doc. \
+\============================= \
+Test.doc the first line. \
+Test.doc !@#$%&*() \
+Test.doe the third line. \
+\============================= \
+Do you want to create another file? (Y/N) **n** \
 Thank you for playing! \
 \>>>
 
