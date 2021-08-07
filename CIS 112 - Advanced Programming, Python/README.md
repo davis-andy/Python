@@ -276,17 +276,17 @@ Sample input/output   (User input is in **bold**)
 \>>>
 
 \>>> \
-\============= RESTART:  =============
+\============= RESTART:  ============= \
 Please enter a filename: **abc** \
 File name needs to have an extension. \
 Plese enter a proper filename: **abc.4#r** \
-Filename can contain only Alphabets, digits and "_". \
+Filename can contain only Alphabets, digits and "\_". \
 Plese enter a proper filename: **23ab.exe** \
-Filename only can start with Alphabets or '_'. \
+Filename only can start with Alphabets or '\_'. \
 Plese enter a proper filename: **abc#$.txt** \
-Filename can contain only Alphabets, digits and "_". \
+Filename can contain only Alphabets, digits and "\_". \
 Plese enter a proper filename: **abc@#abc.txt** \
-Filename can contain only Alphabets, digits and "_". \
+Filename can contain only Alphabets, digits and "\_". \
 Plese enter a proper filename: **Test1.txt** \
 Please enter a sentence: **This is the first line.** \
 Do you want to add more lines? (Y/N) **y** \
