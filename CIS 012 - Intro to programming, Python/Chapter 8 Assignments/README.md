@@ -68,7 +68,13 @@ responseList = ['y', 'n']
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Define the following functions:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**createList(listSize)**:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**createList(listSize)**: accepts a **listSize** as an argument, create a 1-D list called **timeList** with the **listSize** (initial values: zeros), and returns the **timeList** list.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**fillList(listSize, timeList)**: accepts a **listSize** and the list returned by **createList()** as arfuments, and fill the passed list.  This is a void function.
+
+<br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**createList(listSize)**: accepts a **listSize** as an argument, create a 1-D list called **timeList** with the **listSize** (initial values: zeros), and returns the **timeList** list.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\***__Be sure to allow the user to use lowercase as well as uppercase letters.__
 
