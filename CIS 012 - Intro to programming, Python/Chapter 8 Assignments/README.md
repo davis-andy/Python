@@ -1,9 +1,42 @@
-# Chapter 4 Assignments
+# Chapter 8 Assignments
 
-## Ch04-01
-1. Write a value-returning function, **isVowel**, that returns the value **True** if a given character is a vowel and otherwise returns **False**.
+## Ch08-01
+1. Write a Python program that computes the cost of a long-distance call.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\***__Be sure to allow the users to use lowercase as well as uppercase letters.__
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The cost of the call is determined according to the following rate schedule:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Any call started between 8:00 A.M. and 6:00 P.M., Monday through Friday, is billed at a rate of $0.40 per minute.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Any call starting before 8:00 A.M. or after 6:00 P.M., Monday through Friday, is charged at a rate of $0.25 per minute.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. Any call started on a Saturday or Sunday is charged at a rate of $0.15 per minute.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The input will consist of the day of the week, the time the call started, and the length of the call in minutes.  The output will be the cost of 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the call.  The time is to be input in 24-hour notation, so the time 1:30 P.M. is input as (must be the following format, the user types in the 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;colon): \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**13:30**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The day of the week will be read as one of following pairs of character values: \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Mo Tu We Th Fr Sa Su**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Be sure to allow the user to use either uppercase or lowercase letters or a combination of the two.  The number of minutes will be input as a 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value of integer.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Format your output to two decimal places.
+
+<br />
+<br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Define the following function (value returning function):
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**calculateTotalCost()**: Accepts arguments (hour, minute, day, call length), calculate the total cost of a call, and returns the total cost (float).
+
+<br />
+<br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\***__Be sure to allow the user to use lowercase as well as uppercase letters.__
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\***__Do NOT use lists.__
 
 \*************************************************************************************
 
@@ -13,27 +46,42 @@ OUTPUT:
 
 \*************************************************************************************
 <pre>
-Enter a character between a and z (or A and Z): <b>a</b>
+Enter the time the call starts in 24-hour rotation:
+<b>13:10</b>
 
-a is a vowel: True.
+Enter the first two letters of the day of the week:
+<b>Mo</b>
+
+Enter the length of the call in minutes:
+<b>10</b>
+
+Cost of the call: $4.00
 </pre>
 \*************************************************************************************
 <pre>
-Enter a character between a and z (or A and Z): <b>E</b>
+Enter the time the call starts in 24-hour rotation:
+<b>20:10</b>
 
-E is a vowel: True.
+Enter the first two letters of the day of the week:
+<b>fR</b>
+
+Enter the length of the call in minutes:
+<b>10</b>
+
+Cost of the call: $2.50
 </pre>
 \*************************************************************************************
 <pre>
-Enter a character between a and z (or A and Z): <b>B</b>
+Enter the time the call starts in 24-hour rotation:
+<b>10:10</b>
 
-B is a vowel: False.
-</pre>
-\*************************************************************************************
-<pre>
-Enter a character between a and z (or A and Z): <b>b</b>
+Enter the first two letters of the day of the week:
+<b>su</b>
 
-b is a vowel: False.
+Enter the length of the call in minutes:
+<b>10</b>
+
+Cost of the call: $1.50
 </pre>
 \*************************************************************************************
 
