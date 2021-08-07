@@ -28,14 +28,12 @@ Year 1969 Month 2 has 28 days in a month \
 Do you want to repeat? (Y/N)y
 
 <br />
-<br />
 
 Please enter the 4 digit year: 2020 \
 Please enter the month: 2 \
 Year 2020 Month 2 has 29 days in a month \
 Do you want to repeat? (Y/N)n
 
-<br />
 <br />
 
 Thank you for playing! \
