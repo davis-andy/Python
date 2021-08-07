@@ -321,6 +321,26 @@ Thank you for playing! \
 \>>>
 
 ## Assignment 7
+Write a Python program which asks filename to be processed from the user and extract pages from the file.  Your program will ask for the file names for input and output and then starting and ending pages to extract.
+
+Assume user will enter correct file names but need to verify if the range is correct.  (i.e. ending page doesn't exists or ending page number is smaller than starting page)  Use PyPDF2 package for this assignment.
+
+Your program should be able to extract pages and create a file using user inputs.
+
+Sample output (User input is in **bold**)   ====================================
+
+==== RESTART: C:/Jason/PCC/Python/Adv Python/PDFfiles/MultiPagewithInput.py ==== \
+Please enter a file name: **pythonlearn.pdf** \
+Please enter the beginning page number to extract: **10** \
+Please enter the ending page number to extract: **5** \
+Your beginning and ending page numbers are not correct. \
+Please enter the beginning page number to extract: **10** \
+Please enter the ending page number to extract: **450** \
+Your ending index is out of range, please enter correct ending page. \
+Please enter the beginning page number to extract: **10** \
+Please enter the ending page number to extract: **15** \
+Please enter output file name: **Extract10.pdf** \
+\>>>
 
 ## Assignment 8
 
