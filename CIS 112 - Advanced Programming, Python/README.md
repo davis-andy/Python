@@ -343,6 +343,19 @@ Please enter output file name: **Extract10.pdf** \
 \>>>
 
 ## Assignment 8
+Write a Python program which concatenates three PDF files together and name merged file as "MergedFile.pdf".
+
+Here are three pdf files that need to be merged: \  [pythonlearn_ch4.pdf] \
+[pythonlearn_ch5.pdf] \
+[pythonlearn_ch6.pdf]
+
+Output file name needs to be: "MergedFile.pdf".
+
+Do not hardcode file names in the program.  As I showed in my lecture, use regular expression to include all the pdf files to be merged.  Also, there may be other types of files but only the pdf files need to be concatenated.
+
+You do not need to attach merged file for it, only the Python file needs to be submitted.
+
+Use PdfFileMerger class as explained during the class.
 
 ## Assignment 9
 
