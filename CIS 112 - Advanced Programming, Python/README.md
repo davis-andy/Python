@@ -291,7 +291,7 @@ Plese enter a proper filename: **Test1.txt** \
 Please enter a sentence: **This is the first line.** \
 Do you want to add more lines? (Y/N) **y** \
 Please enter a sentence: **This is the second line.** \
-Do you want to add more lines? (Y/N) **n** \
+Do you want to add more lines? (Y/N) **n**
 
 This is what's entered into file Test1.txt. \
 \============================= \
@@ -301,14 +301,14 @@ This is the second line. \
 Do you want to create another file? (Y/N) **y** \
 Let's create another file. \
 Please enter a filename: **3ab.doc** \
-Filename only can start with Alphabets or '_'. \
+Filename only can start with Alphabets or '\_'. \
 Plese enter a proper filename: **Test.doc** \
 Please enter a sentence: **Test.doc the first line.** \
 Do you want to add more lines? (Y/N) **y** \
 Please enter a sentence: **Test.doc !@#$%&*()** \
 Do you want to add more lines? (Y/N) **y** \
 Please enter a sentence: **Test.doe the third line.** \
-Do you want to add more lines? (Y/N) **n** \
+Do you want to add more lines? (Y/N) **n**
 
 This is what's entered into file Test.doc. \
 \============================= \
