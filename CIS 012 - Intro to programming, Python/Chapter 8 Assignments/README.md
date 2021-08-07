@@ -94,7 +94,8 @@ responseList = ['y', 'n']
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**validateUserInputCallLength(callLengthHour, callLengthMinute)**: accepts the **callLengthHour** and **callLengthMinute** as arguments \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;returned by **collectUserInputCallLength()**, validates the user's call length input (**callLengthHour** and **callLengthMinute** should be greater \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;than or equal to zero), and returns **True**, **callLengthHour** (integer), **callLengthMinute** (integer) if the input is valid, or **False** if the input is invalid.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;than or equal to zero), and returns **True**, **callLengthHour** (integer), **callLengthMinute** (integer) if the input is valid, or **False** if the input is \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;invalid.
 
 <br />
 
