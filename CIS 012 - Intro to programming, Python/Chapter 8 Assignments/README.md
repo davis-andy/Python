@@ -71,35 +71,45 @@ responseList = ['y', 'n']
 
 <br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**collectUserInputTime()**: accepts no arguments, collects call starting time in 24-hour notation, and returns **startHour** and **startMinute** as string data type.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**collectUserInputTime()**: accepts no arguments, collects call starting time in 24-hour notation, and returns **startHour** and **startMinute** as \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;string data type.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**validateUserInputTime(startHour, startMinute)**: accepts the **startHour** and **startMinute** returned by **collectUserInputTime()** as arguments, validates the user's time input by comparing to the lists called **hoursList** and **minutesList**, and returns **True**, **startHour** (integer), **startMinute** (integer) if the input is valid, or **False** if the input is invalid.
-
-<br />
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**collectUserInputDay()**: accepts no arguments, collects a day (two characters) save as **firstDayCharacter** and **secondDayCharacter**, and returns **firstDayCharacter** and **secondDayCharacter** as string data type.  Allow uppercase and lowercase input (ex. MO, Mo, mo, and mO).
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**validateUserInputDay(firstDayCharacter, secondDayCharacter)**: accepts the **firstDayCharacter** and **secondDayCharacter** returned by **collectUserInputDay()**, validates the user's day input by comparing to the input to the **dayList** list, and returns **True** if the input is valid, or **False** if the input is invalid.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**validateUserInputTime(startHour, startMinute)**: accepts the **startHour** and **startMinute** returned by **collectUserInputTime()** as arguments, \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;validates the user's time input by comparing to the lists called **hoursList** and **minutesList**, and returns **True**, **startHour** (integer), **startMinute** (integer) if the input is valid, or **False** if the input is invalid.
 
 <br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**collectUserInputCallLength()**: accepts no arguments, collects call length in 24-hour notation, and returns **callLengthHour** and **callLengthMinute** as string data type.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**collectUserInputDay()**: accepts no arguments, collects a day (two characters) save as **firstDayCharacter** and **secondDayCharacter**, and \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;returns **firstDayCharacter** and **secondDayCharacter** as string data type.  Allow uppercase and lowercase input (ex. MO, Mo, mo, and mO).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**validateUserInputCallLength(callLengthHour, callLengthMinute)**: accepts the **callLengthHour** and **callLengthMinute** as arguments returned by **collectUserInputCallLength()**, validates the user's call length input (**callLengthHour** and **callLengthMinute** should be greater than or equal to zero), and returns **True**, **callLengthHour** (integer), **callLengthMinute** (integer) if the input is valid, or **False** if the input is invalid.
-
-<br />
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**calculateTotalCost(startHour, startMinute, firstDayCharacter, secondDayCharacter, callLengthHour, callLengthMinute)**: accepts arguments (startHour, startMinute, firstDayCharacter, secondDayCharacter, callLengthHour, callLengthMinute), calculate the total cost of a call, and returns the total cost (float).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**validateUserInputDay(firstDayCharacter, secondDayCharacter)**: accepts the **firstDayCharacter** and **secondDayCharacter** returned by \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**collectUserInputDay()**, validates the user's day input by comparing to the input to the **dayList** list, and returns **True** if the input is valid, or **False** if the input is invalid.
 
 <br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**collectUserInputYesNo()**: accepts no arguments, collects 'y' or 'n' save as **YesOrNo**, and returns **YesOrNo** as string data type.  Allow uppercase and lowercase input (ex. Y, y, N, n).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**collectUserInputCallLength()**: accepts no arguments, collects call length in 24-hour notation, and returns **callLengthHour** and \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**callLengthMinute** as string data type.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**validateUserInputYesNo(YesOrNo)**: accepts **YesOrNo** as an argument returned by **collectUserInputYesNo()**, validates the user's input by comparing the input to the **responseList** list, and returns **True** if the input is valid, or **False** if the input is invalid.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**validateUserInputCallLength(callLengthHour, callLengthMinute)**: accepts the **callLengthHour** and **callLengthMinute** as arguments \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;returned by **collectUserInputCallLength()**, validates the user's call length input (**callLengthHour** and **callLengthMinute** should be greater than or equal to zero), and returns **True**, **callLengthHour** (integer), **callLengthMinute** (integer) if the input is valid, or **False** if the input is invalid.
 
 <br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**clearPreviousOutput(YesOrNo)**: accepts **YesOrNo**.  If the response is 'y' or 'Y', then clear the previous output, otherwise doesn't clear the pervious output.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**calculateTotalCost(startHour, startMinute, firstDayCharacter, secondDayCharacter, callLengthHour, callLengthMinute)**: accepts \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;arguments (startHour, startMinute, firstDayCharacter, secondDayCharacter, callLengthHour, callLengthMinute), calculate the total cost of a call, and returns the total cost (float).
+
+<br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**collectUserInputYesNo()**: accepts no arguments, collects 'y' or 'n' save as **YesOrNo**, and returns **YesOrNo** as string data type.  Allow \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uppercase and lowercase input (ex. Y, y, N, n).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**validateUserInputYesNo(YesOrNo)**: accepts **YesOrNo** as an argument returned by **collectUserInputYesNo()**, validates the user's input by \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;comparing the input to the **responseList** list, and returns **True** if the input is valid, or **False** if the input is invalid.
+
+<br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**clearPreviousOutput(YesOrNo)**: accepts **YesOrNo**.  If the response is 'y' or 'Y', then clear the previous output, otherwise doesn't clear the \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pervious output.
 
 <br />
 <br />
