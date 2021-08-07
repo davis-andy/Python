@@ -64,17 +64,47 @@ responseList = ['y', 'n']
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Define the following functions:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**createList(listSize)**: accepts a **listSize** as an argument, create a 1-D list called **timeList** with the **listSize** (initial values: zeros), and returns the **timeList** list.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**createList(listSize)**: accepts a **listSize** as an argument, create a 1-D list called **timeList** with the **listSize** (initial values: zeros), and returns the \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**timeList** list.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**fillList(listSize, timeList)**: accepts a **listSize** and the list returned by **createList()** as arfuments, and fill the passed list.  This is a void function.
 
 <br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**createList(listSize)**: accepts a **listSize** as an argument, create a 1-D list called **timeList** with the **listSize** (initial values: zeros), and returns the **timeList** list.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**collectUserInputTime()**: accepts no arguments, collects call starting time in 24-hour notation, and returns **startHour** and **startMinute** as string data type.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\***__Be sure to allow the user to use lowercase as well as uppercase letters.__
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**validateUserInputTime(startHour, startMinute)**: accepts the **startHour** and **startMinute** returned by **collectUserInputTime()** as arguments, validates the user's time input by comparing to the lists called **hoursList** and **minutesList**, and returns **True**, **startHour** (integer), **startMinute** (integer) if the input is valid, or **False** if the input is invalid.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\***__Do NOT use lists.__
+<br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**collectUserInputDay()**: accepts no arguments, collects a day (two characters) save as **firstDayCharacter** and **secondDayCharacter**, and returns **firstDayCharacter** and **secondDayCharacter** as string data type.  Allow uppercase and lowercase input (ex. MO, Mo, mo, and mO).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**validateUserInputDay(firstDayCharacter, secondDayCharacter)**: accepts the **firstDayCharacter** and **secondDayCharacter** returned by **collectUserInputDay()**, validates the user's day input by comparing to the input to the **dayList** list, and returns **True** if the input is valid, or **False** if the input is invalid.
+
+<br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**collectUserInputCallLength()**: accepts no arguments, collects call length in 24-hour notation, and returns **callLengthHour** and **callLengthMinute** as string data type.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**validateUserInputCallLength(callLengthHour, callLengthMinute)**: accepts the **callLengthHour** and **callLengthMinute** as arguments returned by **collectUserInputCallLength()**, validates the user's call length input (**callLengthHour** and **callLengthMinute** should be greater than or equal to zero), and returns **True**, **callLengthHour** (integer), **callLengthMinute** (integer) if the input is valid, or **False** if the input is invalid.
+
+<br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**calculateTotalCost(startHour, startMinute, firstDayCharacter, secondDayCharacter, callLengthHour, callLengthMinute)**: accepts arguments (startHour, startMinute, firstDayCharacter, secondDayCharacter, callLengthHour, callLengthMinute), calculate the total cost of a call, and returns the total cost (float).
+
+<br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**collectUserInputYesNo()**: accepts no arguments, collects 'y' or 'n' save as **YesOrNo**, and returns **YesOrNo** as string data type.  Allow uppercase and lowercase input (ex. Y, y, N, n).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**validateUserInputYesNo(YesOrNo)**: accepts **YesOrNo** as an argument returned by **collectUserInputYesNo()**, validates the user's input by comparing the input to the **responseList** list, and returns **True** if the input is valid, or **False** if the input is invalid.
+
+<br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**clearPreviousOutput(YesOrNo)**: accepts **YesOrNo**.  If the response is 'y' or 'Y', then clear the previous output, otherwise doesn't clear the pervious output.
+
+<br />
+<br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\***__Be sure to allow the user to type lowercase as well as uppercase letters.__
 
 \*************************************************************************************
 
@@ -85,15 +115,97 @@ OUTPUT:
 \*************************************************************************************
 <pre>
 Enter the time the call starts in 24-hour rotation:
+<b>-13:10</b>
+
+Invalid time input.
+Please try again.
+
+Enter the time the call starts in 24-hour rotation:
+</pre>
+\*************************************************************************************
+<pre>
+Enter the time the call starts in 24-hour rotation:
+<b>a:77</b>
+
+Invalid time input.
+Please try again.
+
+Enter the time the call starts in 24-hour rotation:
+</pre>
+\*************************************************************************************
+<pre>
+Enter the time the call starts in 24-hour rotation:
+<b>13:10</b>
+
+Enter the first two letters of the day of the week:
+<b>ss</b>
+
+Invalid day input.
+Please try again.
+
+Enter the first two letters of the day of the week:
+</pre>
+\*************************************************************************************
+<pre>
+Enter the time the call starts in 24-hour rotation:
+<b>13:10</b>
+
+Enter the first two letters of the day of the week:
+<b>1s</b>
+
+Invalid day input.
+Please try again.
+
+Enter the first two letters of the day of the week:
+</pre>
+\*************************************************************************************
+<pre>
+Enter the time the call starts in 24-hour rotation:
 <b>13:10</b>
 
 Enter the first two letters of the day of the week:
 <b>Mo</b>
 
-Enter the length of the call in minutes:
-<b>10</b>
+Enter the length of the call in (hours:minutes):
+<b>-10:10</b>
+
+Invalid call length input.
+Please try again.
+
+Enter the length of the call in (hours:minutes):
+</pre>
+\*************************************************************************************
+<pre>
+Enter the time the call starts in 24-hour rotation:
+<b>13:10</b>
+
+Enter the first two letters of the day of the week:
+<b>Mo</b>
+
+Enter the length of the call in (hours:minutes):
+<b>a1:10</b>
+
+Invalid call length input.
+Please try again.
+
+Enter the length of the call in (hours:minutes):
+</pre>
+\*************************************************************************************
+<pre>
+Enter the time the call starts in 24-hour rotation:
+<b>13:10</b>
+
+Enter the first two letters of the day of the week:
+<b>Mo</b>
+
+Enter the length of the call in (hours:minutes):
+<b>0:10</b>
 
 Cost of the call: $4.00
+
+
+Do you want to repeat the program (y/n)?
+>><b>y</b>
 </pre>
 \*************************************************************************************
 <pre>
@@ -101,12 +213,22 @@ Enter the time the call starts in 24-hour rotation:
 <b>20:10</b>
 
 Enter the first two letters of the day of the week:
-<b>fR</b>
+<b>Fr</b>
 
-Enter the length of the call in minutes:
-<b>10</b>
+Enter the length of the call in (hours:minutes):
+<b>0:10</b>
 
 Cost of the call: $2.50
+
+
+Do you want to repeat the program (y/n)?
+>><b>yes</b>
+
+Invalid response.
+PLease try again.
+
+Do you want to repeat the program (y/n)?
+>><b>y</b>
 </pre>
 \*************************************************************************************
 <pre>
@@ -114,16 +236,20 @@ Enter the time the call starts in 24-hour rotation:
 <b>10:10</b>
 
 Enter the first two letters of the day of the week:
-<b>su</b>
+<b>Su</b>
 
-Enter the length of the call in minutes:
-<b>10</b>
+Enter the length of the call in (hours:minutes):
+<b>1:40</b>
 
-Cost of the call: $1.50
+Cost of the call: $150.00
+
+
+Do you want to repeat the program (y/n)?
+>><b>n</b>
 </pre>
 \*************************************************************************************
 
-## Ch04-02
+## Ch08-02
 1. Write a Python program that accepts a year written as a four-digit Arabic (ordinary) numberal and outputs the year written in Roman numbers.
 
 
