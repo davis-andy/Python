@@ -69,6 +69,48 @@ You will need to create several functions for this assignment to draw polygons.
 ![turtle scaled](https://github.com/davis-andy/Python/blob/main/CIS%20112%20-%20Advanced%20Programming%2C%20Python/images/turtle_scaled.PNG)
 
 ## Assignment 4
+Write a Python program to identify a number is a prime number or not.  Use function to identify whether input number is a prime number or not.    Ask user to provide a number and your program will output whether it is a prime number or not.  After displaying output, ask user whether to continue with another number or quit. 
+
+Make sure to use the function to identify whether the input is a prime number or not.  Main program just invoke the function.
+
+\=================================================
+
+Sample Output
+
+\=================================================
+
+Please enter a number: 3 \
+3 is a prime number. \
+Do you want to play again? (Y or N) y
+
+<br />
+
+Please enter a number: 5 \
+5 is a prime number. \
+Do you want to play again? (Y or N) y
+
+<br />
+
+Please enter a number: 11 \
+11 is a prime number. \
+Do you want to play again? (Y or N) y
+
+<br />
+
+Please enter a number: 8 \
+8 is not a prime number. \
+Do you want to play again? (Y or N) y
+
+<br />
+
+Please enter a number: 10 \
+10 is not a prime number. \
+Do you want to play again? (Y or N) n
+
+<br />
+
+Thank you for playing. \
+\>>>
 
 ## Assignment 5
 1. Write a Python program that test the function mand the functions discussed in parts a through g.
