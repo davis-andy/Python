@@ -359,8 +359,8 @@ Use PdfFileMerger class as explained during the class.
 ## Assignment 9
 Create a Python program which merges two files together.
 
-[pythonlearn_ch8MissingPages.pdf]() \
-[From_pythonlearn_ch8.pdf]()
+[pythonlearn_ch8MissingPages.pdf](https://github.com/davis-andy/Python/blob/main/CIS%20112%20-%20Advanced%20Programming%2C%20Python/pdfs/pythonlearn_ch8MissingPages.pdf) \
+[From_pythonlearn_ch8.pdf](https://github.com/davis-andy/Python/blob/main/CIS%20112%20-%20Advanced%20Programming%2C%20Python/pdfs/From_pythonlearn_ch8.pdf)
 
 <br />
 
