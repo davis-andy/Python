@@ -47,7 +47,7 @@ Write a Python program using turtle to draw polygons.  Name the program as Assig
 Write a python program using turtle to draw following squares with initial side length for 120.  Each time turtle draws, it shrinks both sides of the line by 10 (the actual length of the line will be shrunk by 20 because both ends are shrunken by 10) until sides can't be shrunken.  Do not specify how many times the loop needs to be executed.  Control the loop execution by checking whether the length of the side is larger than 0.
 
 Here is the output of the program: \
-![assignment 2](/images/asignment2.png)
+![assignment 2](./images/asignment2.png)
 
 ## Ch08-03
 1. Write a Python program that test the function mand the functions discussed in parts a through g.
