@@ -16,7 +16,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;colon): \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**13:30**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The day of the week will be read as one of following pairs of character values: \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The day of the week will be read as one of following pairs of character values, which are stored in two variables of type string (ex. a, b = "Mo"): \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Mo Tu We Th Fr Sa Su**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Be sure to allow the user to use either uppercase or lowercase letters or a combination of the two.  The number of minutes will be input as a 
@@ -27,9 +27,17 @@
 <br />
 <br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Define the following function (value returning function):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Define the following lists and fill the lists using the two functions (**createList()** and **fillList()**):
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**calculateTotalCost()**: Accepts arguments (hour, minute, day, call length), calculate the total cost of a call, and returns the total cost (float).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Calling the functions (copy the following statements into your program):
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**hoursList = createList(24)**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**fillList(24, hoursList)**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**minutesList = createList(60)**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**fillList(60, minutesList)**
 
 <br />
 <br />
