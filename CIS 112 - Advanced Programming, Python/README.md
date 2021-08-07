@@ -35,7 +35,7 @@ Do you want to repeat? (Y/N)n
 
 
 Thank you for playing!
->>>
+\>>>
 
 ## Ch08-02
 1. Write a Python program that creates and stores a multiplication table in a 2D list called **MT**, and then displays elements.  Do NOT create additional lists.
