@@ -1,4 +1,4 @@
-# Chapter 14 Assignments
+# Chapter 14 Assignment
 
 Build a simplified Tamagotchi using Object-Oriented Programming.  You get 100 points for implementing the basic class with the listed attributes and behaviors for the pet.  You get 20 points extra credit if you use unit testing.  You can get up to 100 points extra credit if you use inheritance and make interesting Tamagotchi "breeds" with different characteristics and behaviors.
 
