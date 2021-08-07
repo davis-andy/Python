@@ -43,6 +43,33 @@
 <br />
 <br />
 
+```
+hoursList  = [0, 1, 2, .........., 22, 23]
+
+minutesList = [0, 1, 2, .........., 58, 59]
+```
+
+<br />
+<br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Define the following lists and fill the lists manually (copy the following code and paste into your program):
+
+<br />
+<br />
+
+```
+daysList = ['mo', 'tu', 'we', 'th', 'fr', 'sa', 'su']
+
+responseList = ['y', 'n']
+```
+
+<br />
+<br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Define the following functions:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**createList(listSize)**:
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\***__Be sure to allow the user to use lowercase as well as uppercase letters.__
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\***__Do NOT use lists.__
