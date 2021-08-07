@@ -75,7 +75,8 @@ responseList = ['y', 'n']
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;string data type.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**validateUserInputTime(startHour, startMinute)**: accepts the **startHour** and **startMinute** returned by **collectUserInputTime()** as arguments, \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;validates the user's time input by comparing to the lists called **hoursList** and **minutesList**, and returns **True**, **startHour** (integer), **startMinute** (integer) if the input is valid, or **False** if the input is invalid.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;validates the user's time input by comparing to the lists called **hoursList** and **minutesList**, and returns **True**, **startHour** (integer), **startMinute** \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(integer) if the input is valid, or **False** if the input is invalid.
 
 <br />
 
@@ -83,7 +84,8 @@ responseList = ['y', 'n']
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;returns **firstDayCharacter** and **secondDayCharacter** as string data type.  Allow uppercase and lowercase input (ex. MO, Mo, mo, and mO).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**validateUserInputDay(firstDayCharacter, secondDayCharacter)**: accepts the **firstDayCharacter** and **secondDayCharacter** returned by \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**collectUserInputDay()**, validates the user's day input by comparing to the input to the **dayList** list, and returns **True** if the input is valid, or **False** if the input is invalid.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**collectUserInputDay()**, validates the user's day input by comparing to the input to the **dayList** list, and returns **True** if the input is valid, or \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**False** if the input is invalid.
 
 <br />
 
@@ -91,12 +93,14 @@ responseList = ['y', 'n']
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**callLengthMinute** as string data type.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**validateUserInputCallLength(callLengthHour, callLengthMinute)**: accepts the **callLengthHour** and **callLengthMinute** as arguments \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;returned by **collectUserInputCallLength()**, validates the user's call length input (**callLengthHour** and **callLengthMinute** should be greater than or equal to zero), and returns **True**, **callLengthHour** (integer), **callLengthMinute** (integer) if the input is valid, or **False** if the input is invalid.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;returned by **collectUserInputCallLength()**, validates the user's call length input (**callLengthHour** and **callLengthMinute** should be greater \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;than or equal to zero), and returns **True**, **callLengthHour** (integer), **callLengthMinute** (integer) if the input is valid, or **False** if the input is invalid.
 
 <br />
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**calculateTotalCost(startHour, startMinute, firstDayCharacter, secondDayCharacter, callLengthHour, callLengthMinute)**: accepts \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;arguments (startHour, startMinute, firstDayCharacter, secondDayCharacter, callLengthHour, callLengthMinute), calculate the total cost of a call, and returns the total cost (float).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;arguments (startHour, startMinute, firstDayCharacter, secondDayCharacter, callLengthHour, callLengthMinute), calculate the total cost of a \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;call, and returns the total cost (float).
 
 <br />
 
