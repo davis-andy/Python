@@ -339,7 +339,8 @@ X      1      2      3      4      5      6      7      8      9      10
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;one-dimensional list.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g. Write the definition of the function **inStock** that prompts the user to input the elements for the first column of **inStock**.  The function \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;should then set the elements in the remaingin columns to two times the corresponding element in the previous column, minues the corresponding element in **delta**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;should then set the elements in the remaingin columns to two times the corresponding element in the previous column, minues the \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;corresponding element in **delta**.
 
 \*************************************************************************************
 
