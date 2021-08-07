@@ -265,65 +265,43 @@ Do you want to repeat the program (y/n)?
 \*************************************************************************************
 
 ## Ch08-02
-1. Write a Python program that accepts a year written as a four-digit Arabic (ordinary) numberal and outputs the year written in Roman numbers.
+1. Write a Python program that creates and stores a multiplication table in a 2D list called **MT**, and then displays elements.  Do NOT create additional lists.
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To create a empty list (2Dlist) called **MT**, use the following:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Important**:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**MT = [ ]**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Roman numerals are V for 5, X for 10, L for 50, C for 100, D for 500, and M for 1,000.
+<br />
+<br />
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use three while loops (counter-controlled) - no for loop:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Recall that some numbers are formed by using a kind of subtraction of one Roman "digit"; for example, IV is 4 produced as V minus I, XL is 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;40, CM is 900, and so on.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use one while loop to add elemets to the **MT** list and set initial value to be **0**.
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use another nested-while loop to change elements (Do NOT set values manually, except the first row and first column).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A few sample years: MCM is 1900, MCML is 1950, MCMLX is 1960, MCMXL is 1940, MCMLXXXIX is 1989.
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Hints: Use division and mod.)
-
-<br></br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Assume the year is between 1000 and 3000.
-
-<br></br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Define the following functions (value returning functions):
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**returnRomanThousandsPlace()**: Accepts a thousands place integer number as an argument and returns the roman numerals for the
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;thousands place.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**returnRomanHundredsPlace()**: Accepts a hundreds place integer number as an argument and returns the roman numerals for the
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hundreds place.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**returnRomanTensPlace()**: Accepts a tens place integer number as an argument and returns the roman numerals for the tens place.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**returnRomanOnesPlace()**: Accepts a ones place integer number as an argument and returns the roman numerals for the ones place.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use the other (nested-while loop) to display elements.
 
 \*************************************************************************************
 
 OUTPUT:
 
-&ndash; The bold text is the user's input.
+&ndash; Use tab after displaying each number.
 
 \*************************************************************************************
 <pre>
-Enter a year between 1000 and 3000:
-<b>1952</b>
-
-Your number in roman numerals is: MCMLII.
-</pre>
-\*************************************************************************************
-<pre>
-Enter a year between 1000 and 3000:
-<b>2048</b>
-
-Your number in roman numerals is: MMXLVIII.
-</pre>
-\*************************************************************************************
-<pre>
-Enter a year between 1000 and 3000:
-<b>2500</b>
-
-Your number in roman numerals is: MMD.
+Multiplication Table:
+X      1      2      3      4      5      6      7      8      9      10
+1      1      2      3      4      5      6      7      8      9      10
+2      2      4      6      8      10     12     14     16     18     20
+3      3      6      9      12     15     18     21     24     27     30
+4      4      8      12     16     20     24     28     32     36     40
+5      5      10     15     20     25     30     35     40     45     50
+6      6      12     18     24     30     36     42     48     54     60
+7      7      14     21     28     35     42     49     56     63     70
+8      8      16     24     32     40     48     56     64     72     80
+9      9      18     27     36     45     54     63     72     81     90
+10     10     20     30     40     50     60     70     80     90     100
 </pre>
 \*************************************************************************************
 
