@@ -63,9 +63,10 @@ You will need to create several functions for this assignment to draw polygons.
 2. drawShape(Turtle, sides, length):  Draws the polygon based on the user input of # of sides and lenght of the side.
 
 3. SpinPolygon(Turtle, sides, angle, length, repeat):  Draws the polygon number of times while turn polygon by the angle on the left each time.   Below is a sample image for rotating 5 times. \
-![turtle polygon](https://github.com/davis-andy/Python/blob/main/CIS%20112%20-%20Advanced%20Programming%2C%20Python/images/assignment2.PNG)
+![turtle polygon](https://github.com/davis-andy/Python/blob/main/CIS%20112%20-%20Advanced%20Programming%2C%20Python/images/turtle_polygon.PNG)
 
-![turtle scaled](https://github.com/davis-andy/Python/blob/main/CIS%20112%20-%20Advanced%20Programming%2C%20Python/images/assignment2.PNG)
+4. ScalePolygon(Turtle, sides, length, sfactor, number): Draws a given number of copies of the specified polygon, with each copy drawn with a length and sfactor times the previous length.  i.e. if the sfactor is 2 and number of copies is 4 with initial length of 10, it will draw polygon with side length of 10, 20, 40, 80.  Below is scaling 4 times. \
+![turtle scaled](https://github.com/davis-andy/Python/blob/main/CIS%20112%20-%20Advanced%20Programming%2C%20Python/images/turtle_scaled.PNG)
 
 ## Assignment 4
 
