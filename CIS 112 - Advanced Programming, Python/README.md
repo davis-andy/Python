@@ -7,7 +7,7 @@ Write a Python program to find out number of days in a month.  Your program will
 
 2.  Depends on the result of the step 1, number of days for Feb. will be different.
 
- 
+<br /> 
 
 Use functions (finding leap year, finding days in a month).
 
