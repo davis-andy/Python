@@ -345,9 +345,9 @@ Please enter output file name: **Extract10.pdf** \
 ## Assignment 8
 Write a Python program which concatenates three PDF files together and name merged file as "MergedFile.pdf".
 
-Here are three pdf files that need to be merged: \  [pythonlearn_ch4.pdf] \
-[pythonlearn_ch5.pdf] \
-[pythonlearn_ch6.pdf]
+Here are three pdf files that need to be merged: \ [pythonlearn_ch4.pdf](https://github.com/davis-andy/Python/blob/main/CIS%20112%20-%20Advanced%20Programming%2C%20Python/pdfs/pythonlearn_ch4.pdf) \
+[pythonlearn_ch5.pdf](https://github.com/davis-andy/Python/blob/main/CIS%20112%20-%20Advanced%20Programming%2C%20Python/pdfs/pythonlearn_ch5.pdf) \
+[pythonlearn_ch6.pdf](https://github.com/davis-andy/Python/blob/main/CIS%20112%20-%20Advanced%20Programming%2C%20Python/pdfs/pythonlearn_ch6.pdf)
 
 Output file name needs to be: "MergedFile.pdf".
 
