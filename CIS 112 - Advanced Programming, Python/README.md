@@ -39,46 +39,12 @@ Do you want to repeat? (Y/N)n
 Thank you for playing! \
 \>>>
 
-## Ch08-02
-1. Write a Python program that creates and stores a multiplication table in a 2D list called **MT**, and then displays elements.  Do NOT create additional lists.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To create a empty list (2Dlist) called **MT**, use the following:
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**MT = [ ]**
+## Assignment 2
+Write a Python program using turtle to draw polygons.  Name the program as Assignment2_yourname.py.  Your name consist of first initial of the first name and up to 5 letters of your last name.
 
 <br />
-<br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use three while loops (counter-controlled) - no for loop:
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use one while loop to add elemets to the **MT** list and set initial value to be **0**.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use another nested-while loop to change elements (Do NOT set values manually, except the first row and first column).
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use the other (nested-while loop) to display elements.
-
-\*************************************************************************************
-
-OUTPUT:
-
-&ndash; Use tab after displaying each number.
-
-\*************************************************************************************
-<pre>
-Multiplication Table:
-X      1      2      3      4      5      6      7      8      9      10
-1      1      2      3      4      5      6      7      8      9      10
-2      2      4      6      8      10     12     14     16     18     20
-3      3      6      9      12     15     18     21     24     27     30
-4      4      8      12     16     20     24     28     32     36     40
-5      5      10     15     20     25     30     35     40     45     50
-6      6      12     18     24     30     36     42     48     54     60
-7      7      14     21     28     35     42     49     56     63     70
-8      8      16     24     32     40     48     56     64     72     80
-9      9      18     27     36     45     54     63     72     81     90
-10     10     20     30     40     50     60     70     80     90     100
-</pre>
-\*************************************************************************************
+Write a python program using turtle to draw following squares with initial side length for 120.  Each time turtle draws, it shrinks both sides of the line by 10 (the actual length of the line will be shrunk by 20 because both ends are shrunken by 10) until sides can't be shrunken.  Do not specify how many times the loop needs to be executed.  Control the loop execution by checking whether the length of the side is larger than 0.
 
 ## Ch08-03
 1. Write a Python program that test the function mand the functions discussed in parts a through g.
