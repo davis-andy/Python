@@ -7,13 +7,13 @@ length of your shortest possible palindrome (NOT your new palindrome) per given 
 the function returns 0.  You **MUST** make use of the following function signature:
 
 <pre>
-int getShortestLength(int n) 
+def getShortestLength(n: int) -> int:
 </pre>
 
 Note: you may reuse the function from your lab as the helper utility to solve for the above:
 
 <pre>
-bool isPalindrome(int input)
+def isPalindrome(inp: int) -> bool:
 </pre>
 
 Or, you may use any other subroutines, functions, methods, etc., you need to help you solve the getShortestLength() 
@@ -23,57 +23,55 @@ problem.
 
 input: 121
 
-output: 3  // (because 121 is already a palindrome)
+output: 3  # (because 121 is already a palindrome)
 
 <br />
 
 input: 12393
 
-output: 7  // (because 12393 -> 1239321; note you may also have 123939321 but that is not the shortest palindrome 
+output: 7  # (because 12393 -> 1239321; note you may also have 123939321 but that is not the shortest palindrome 
 after the input)
 
 <br />
 
 input: 123
 
-output: 5  // (because 123 -> 12321) 
+output: 5  # (because 123 -> 12321) 
 
 <br />
 
 input: -234
 
-output: 0 // (because -234 is not a palindrome) 
+output: 0 # (because -234 is not a palindrome) 
 
 **Constraints/Assumptions:**
 
-* Your integral input is assumed to have been within the acceptable INT_MIN and INT_MAX range
+* Your integral input is assumed to have been within the acceptable `sys.maxsize` range
 * The function returns 0 for all non-palindrome input
 * Your input can be either positive or negative
 * Negative number is not palindromic
 * 0 is a palindrome, so is any single positive digit (2, 3, ... , 9)
-* Failure to follow the exact function signature will receive -1 point
 
 ## Homework 4.2
-Write a de-duplication function that iteratively sanitizes (removes) all consecutive duplicates in a C++ 
+Write a de-duplication function that iteratively sanitizes (removes) all consecutive duplicates in a Python 
 string. Consecutive duplicates are a pair of duplicate English alphabets sitting next to each other in the input 
 string. Example: "AA", "KK", etc., are all consecutive duplicates. This function will internally run as many 
 iterations as needed to remove all consecutive duplicates until there is either no consecutive duplicates left, or 
 the string becomes empty (in which the function returns "Empty" back to the user):
 
 <pre>
-string deduplicate(string input)
+def deduplicate(inp: str) -> str:
 </pre>
 
-Your main() may look like the following, or anything you prefer to put in it as it is not graded:
+Your main() may look like the following, or anything you prefer to put in it:
 
 <pre>
-int main() {
-  cout << deduplicate("AABB"); // should output "Empty"
-  cout << deduplicate("A"); // "A"
-  cout << deduplicate("ABBA"); // should output "Empty"
-  cout << deduplicate("AAA"); // "A"
-  cout << deduplicate("AKA"); // "AKA" because there is no consecutive pair.
-  return 0;
+def main() {
+  print(deduplicate("AABB"))  # should output "Empty"
+  print(deduplicate("A"))  # "A"
+  print(deduplicate("ABBA"))  # should output "Empty"
+  print(deduplicate("AAA"))  # "A"
+  print(deduplicate("AKA"))  # "AKA" because there is no consecutive pair.
 }
 </pre>
 
