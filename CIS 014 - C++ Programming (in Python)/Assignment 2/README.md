@@ -13,14 +13,14 @@ This problem is the SAME as your Homework Assignment #1 but **WITH** the use of 
  * RETURN VALUE:
  *     string: result in dollars, quarters, dimes, nickels, and pennies
  * FUNCTION SIGNATURE:
- * breakCash(numPennies: int)
+ * def breakCash(numPennies: int)
  */
 </pre>
 
 PLEASE MAKE SURE THAT YOU HAVE THE EXACT breakCash FUNCTION SIGNATURE namely
 
 <pre>
-breakCash(numPennies: int)
+def breakCash(numPennies: int)
 </pre>
 
 DO NOT modify, add, or delete any parameters, return type, or name of the function in your assignment. 

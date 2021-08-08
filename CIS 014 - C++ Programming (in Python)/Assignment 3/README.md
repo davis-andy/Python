@@ -1,22 +1,22 @@
 # Homework Assignments 3
 
 ## Homework 3.1
-You can instantiate (create) a C++ string on the stack like so:
+You can instantiate (create) a Python string on the stack like so:
 
 <pre>
-string str = "babbaa";
+str = "babbaa"
 </pre>
 
 which consists of an array of 6 elements of type char:
 
 <pre>
-{'b','a','b','b','a','a'};
+{'b','a','b','b','a','a'}
 </pre>
 
-You have a C++ string of finite length consisting of only 'a' and 'b's in it. Write the following function to separate all of the 'a' and 'b' in the string so that all 'a' appear before 'b' in it:
+You have a Python string of finite length consisting of only 'a' and 'b's in it. Write the following function to separate all of the 'a' and 'b' in the string so that all 'a' appear before 'b' in it:
 
 <pre>
-string separateLetters(string input); 
+def separateLetters(string input); 
 </pre>
 
 The above sorted string becomes, for example: 
