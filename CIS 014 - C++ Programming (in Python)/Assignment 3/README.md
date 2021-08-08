@@ -17,7 +17,7 @@ You have a Python string of finite length consisting of only 'a' and 'b's in it.
 separate all of the 'a' and 'b' in the string so that all 'a' appear before 'b' in it:
 
 <pre>
-def separateLetters(string input)
+def separateLetters(inp: str) -> str:
 </pre>
 
 The above sorted string becomes, for example: 
