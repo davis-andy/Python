@@ -96,7 +96,7 @@ implement the CanIAlwaysWin() function by returning either a true or false value
 <pre>
 def main():
    n = int(input("Enter a number: "))
-   print(f"Can I win: {CanIAlwaysWin(n)}")
+   print(f'Can I win: {CanIAlwaysWin(n)}')
 </pre>
 
 **Constraints and Assumptions:**
