@@ -66,13 +66,12 @@ def deduplicate(inp: str) -> str:
 Your main() may look like the following, or anything you prefer to put in it:
 
 <pre>
-def main() {
+def main():
   print(deduplicate("AABB"))  # should output "Empty"
   print(deduplicate("A"))  # "A"
   print(deduplicate("ABBA"))  # should output "Empty"
   print(deduplicate("AAA"))  # "A"
   print(deduplicate("AKA"))  # "AKA" because there is no consecutive pair.
-}
 </pre>
 
 **Examples:**
