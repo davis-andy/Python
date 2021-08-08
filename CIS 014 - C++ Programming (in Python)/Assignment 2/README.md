@@ -1,4 +1,4 @@
-# Homework / Lab Assignments 2
+# Homework Assignments 2
 
 ## Homework 2.1
 This problem is the SAME as your Homework Assignment #1 but **WITH** the use of breakCash() function and other twists. See the following **Constraints/Assumptions**. You will take your console program, and extract much of its computation logic into a separate breakCash() function with the following specification:
@@ -79,20 +79,3 @@ _**CONSTRAINTS/ASSUMPTIONS**_:
 * Your output for USD should be correct to exactly TWO (2) decimal places, e.g., not $15 but $15.26 in the above example output
 * Your available US currency units are: half dollars, quarters, dimes, nickels, and pennies.
 * For simplicity you may use the plural nouns for the currency units even if the unit is singular. Example: '1 pennies' is acceptable in your output.
-
-## Lab 1
-* Get your IDE (Integrated Development Environment) to work on a sample program on your computer (or any public computer).
-* Create your first "Hello World" program, and compile it in the IDE. Please reference Chapter 2 in your textbook for instructions
-
-## Lab 2
-Print to screen the following sentence:
-
-<pre>
-The CIS14 C++ Programming class
-</pre>
-
-(a) all on one line
-
-(b) on five lines, and
-
-(c) inside a box using a combination of '_' and '|' characters
