@@ -1,7 +1,8 @@
 # CIS 112 Assignments
 
 ## Assignment 1
-Write a Python program to find out number of days in a month.  Your program will ask user to enter month and year and display number of days of that month.
+Write a Python program to find out number of days in a month.  Your program will ask user to enter month and year and 
+display number of days of that month.
 
 1.  Need to figure out whether the years is a leap year or not.
 
@@ -11,7 +12,8 @@ Write a Python program to find out number of days in a month.  Your program will
 
 Use functions (finding leap year, finding days in a month).
 
-After producing the output, ask users whether to repeat it or not.  If user wants to repeat, ask year and month again and produce the output.  Repeat it until user wants to stop.
+After producing the output, ask users whether to repeat it or not.  If user wants to repeat, ask year and month again 
+and produce the output.  Repeat it until user wants to stop.
 
 Make sure you have comments in your program.
 
@@ -44,7 +46,10 @@ Write a Python program using turtle to draw polygons.
 
 <br />
 
-Write a python program using turtle to draw following squares with initial side length for 120.  Each time turtle draws, it shrinks both sides of the line by 10 (the actual length of the line will be shrunk by 20 because both ends are shrunken by 10) until sides can't be shrunken.  Do not specify how many times the loop needs to be executed.  Control the loop execution by checking whether the length of the side is larger than 0.
+Write a python program using turtle to draw following squares with initial side length for 120.  Each time turtle 
+draws, it shrinks both sides of the line by 10 (the actual length of the line will be shrunk by 20 because both ends 
+are shrunken by 10) until sides can't be shrunken.  Do not specify how many times the loop needs to be 
+executed.  Control the loop execution by checking whether the length of the side is larger than 0.
 
 Here is the output of the program: \
 ![assignment 2](https://github.com/davis-andy/Python/blob/main/CIS%20112%20-%20Advanced%20Programming%2C%20Python/images/assignment2.PNG)
@@ -62,16 +67,23 @@ You will need to create several functions for this assignment to draw polygons.
 
 2. drawShape(Turtle, sides, length):  Draws the polygon based on the user input of # of sides and lenght of the side.
 
-3. SpinPolygon(Turtle, sides, angle, length, repeat):  Draws the polygon number of times while turn polygon by the angle on the left each time.   Below is a sample image for rotating 5 times. \
+3. SpinPolygon(Turtle, sides, angle, length, repeat):  Draws the polygon number of times while turn polygon by the 
+4. angle on the left each time.   Below is a sample image for rotating 5 times. \
 ![turtle polygon](https://github.com/davis-andy/Python/blob/main/CIS%20112%20-%20Advanced%20Programming%2C%20Python/images/turtle_polygon.PNG)
 
-4. ScalePolygon(Turtle, sides, length, sfactor, number): Draws a given number of copies of the specified polygon, with each copy drawn with a length and sfactor times the previous length.  i.e. if the sfactor is 2 and number of copies is 4 with initial length of 10, it will draw polygon with side length of 10, 20, 40, 80.  Below is scaling 4 times. \
+5. ScalePolygon(Turtle, sides, length, sfactor, number): Draws a given number of copies of the specified polygon, 
+with each copy drawn with a length and sfactor times the previous length.  i.e. if the sfactor is 2 and number of 
+copies is 4 with initial length of 10, it will draw polygon with side length of 10, 20, 40, 80.  Below is 
+scaling 4 times. \
 ![turtle scaled](https://github.com/davis-andy/Python/blob/main/CIS%20112%20-%20Advanced%20Programming%2C%20Python/images/turtle_scaled.PNG)
 
 ## Assignment 4
-Write a Python program to identify a number is a prime number or not.  Use function to identify whether input number is a prime number or not.    Ask user to provide a number and your program will output whether it is a prime number or not.  After displaying output, ask user whether to continue with another number or quit. 
+Write a Python program to identify a number is a prime number or not.  Use function to identify whether input number 
+is a prime number or not.    Ask user to provide a number and your program will output whether it is a prime number 
+or not.  After displaying output, ask user whether to continue with another number or quit. 
 
-Make sure to use the function to identify whether the input is a prime number or not.  Main program just invoke the function.
+Make sure to use the function to identify whether the input is a prime number or not.  Main program just invoke the 
+function.
 
 \=================================================
 
@@ -130,23 +142,31 @@ Thank you for playing. \
 <br />
 <br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Write the definition of the function **setZero** that initializes any one-dimensional list to 0 (**aplha** and **beta**).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Write the definition of the function **setZero** that initializes any 
+one-dimensional list to 0 (**aplha** and **beta**).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Write the definition of the function **inputArray** that prompts the user to input 20 numbers and stores the numbers into **alpha**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Write the definition of the function **inputArray** that prompts the user to 
+input 20 numbers and stores the numbers into **alpha**.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. Write the definition of the funciton **doubleArray** that initializes the elemets of **beta** to two times the corresponding elements in **alpha**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. Write the definition of the funciton **doubleArray** that initializes the 
+elemets of **beta** to two times the corresponding elements in **alpha**.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. Write the definition of the function **copyGamma** that sets the elements of the first row of **inStock** from **gamma** and the remaining rows \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. Write the definition of the function **copyGamma** that sets the elements of 
+the first row of **inStock** from **gamma** and the remaining rows \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of **inStock** to three times the previous row of **inStock**.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e. Write the definition of the function **copyAlphaBeta** that stores **alpha** into the first five rows of **inStock** and **beta** into the last five rows of \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e. Write the definition of the function **copyAlphaBeta** that stores **alpha** 
+into the first five rows of **inStock** and **beta** into the last five rows of \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**inStock**.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f. Write the definition of the function **printArray** that prints any one-dimentionsl list.  The funciton must contain only one loop to print any \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f. Write the definition of the function **printArray** that prints any 
+one-dimentionsl list.  The funciton must contain only one loop to print any \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;one-dimensional list.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g. Write the definition of the function **inStock** that prompts the user to input the elements for the first column of **inStock**.  The function \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;should then set the elements in the remaingin columns to two times the corresponding element in the previous column, minues the \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g. Write the definition of the function **inStock** that prompts the user to 
+input the elements for the first column of **inStock**.  The function \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;should then set the elements in the remaingin columns to two times the 
+corresponding element in the previous column, minues the \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;corresponding element in **delta**.
 
 \*************************************************************************************
@@ -260,11 +280,16 @@ inStock after a call to setInStock:
   * Name can consist of digits, Alphabets and "_".
   * Can not contain any special characters.
   * For this assignment, filename needs to have an extension and any extension will be fine.
-* If the filename that user provides is not a valid one, you need to inform the user about it and ask for a proper name.
-* Once proper filename has been entered, take an input line by line.  After each line input, ask user whether to add more lines and depends on the response, your program will take additional input or stop taking it.
-* Once done with input for a file, your program needs to ask user whether to create another file or not.  Depends on the response from the user, your program either stop altogether or start to take another line by line input for a new file.
+* If the filename that user provides is not a valid one, you need to inform the user about it and ask for a proper 
+name.
+* Once proper filename has been entered, take an input line by line.  After each line input, ask user whether to 
+add more lines and depends on the response, your program will take additional input or stop taking it.
+* Once done with input for a file, your program needs to ask user whether to create another file or not.  Depends 
+on the response from the user, your program either stop altogether or start to take another line by line input for 
+a new file.
 * After closing the file, your program needs to display the file content to the user.
-* Once program execution is complete, files should have been created  with all the content provided by the user in the directory where your program is.
+* Once program execution is complete, files should have been created  with all the content provided by the user 
+in the directory where your program is.
 * For this assignment, use of functions and regular expression is required.
 
 \=====================================================================
@@ -321,9 +346,11 @@ Thank you for playing! \
 \>>>
 
 ## Assignment 7
-Write a Python program which asks filename to be processed from the user and extract pages from the file.  Your program will ask for the file names for input and output and then starting and ending pages to extract.
+Write a Python program which asks filename to be processed from the user and extract pages from the file.  Your 
+program will ask for the file names for input and output and then starting and ending pages to extract.
 
-Assume user will enter correct file names but need to verify if the range is correct.  (i.e. ending page doesn't exists or ending page number is smaller than starting page)  Use PyPDF2 package for this assignment.
+Assume user will enter correct file names but need to verify if the range is correct.  (i.e. ending page doesn't 
+exist or ending page number is smaller than starting page)  Use PyPDF2 package for this assignment.
 
 Your program should be able to extract pages and create a file using user inputs.
 
@@ -352,7 +379,8 @@ Here are three pdf files that need to be merged: \
 
 Output file name needs to be: "MergedFile.pdf".
 
-Do not hardcode file names in the program.  As I showed in my lecture, use regular expression to include all the pdf files to be merged.  Also, there may be other types of files but only the pdf files need to be concatenated.
+Do not hardcode file names in the program.  As I showed in my lecture, use regular expression to include all the 
+pdf files to be merged.  Also, there may be other types of files but only the pdf files need to be concatenated.
 
 Use PdfFileMerger class as explained during the class.
 
@@ -364,20 +392,24 @@ Create a Python program which merges two files together.
 
 <br />
 
-The first file (pythonlearn_ch8MissingPages.pdf) has missing pages (95 - 98), and the second file (From_pythonlearn_ch8.pdf) has missing page.  Make sure missing pages are merged into the first file properly.
+The first file (pythonlearn_ch8MissingPages.pdf) has missing pages (95 - 98), and the second file 
+(From_pythonlearn_ch8.pdf) has missing page.  Make sure missing pages are merged into the first file properly.
 
 ## Project 1
-Write a Python program for a calculator.  Your program should present a calculator same as following picture in button arrangement and features.
+Write a Python program for a calculator.  Your program should present a calculator same as following picture in 
+button arrangement and features.
 
 ![calculator](https://github.com/davis-andy/Python/blob/main/CIS%20112%20-%20Advanced%20Programming%2C%20Python/images/calculator.PNG)
 
 * It needs to be able to carry out addition, subtraction, division and multiplication.
 * It needs to be able to handle positive and negative numbers.
 * It needs to be able to accept integers and floating point numbers.
-* Clear button is to clear the screen during calculation or after the calculation.  When this button is pressed, windows needs to be cleaned as in the above picture.
+* Clear button is to clear the screen during calculation or after the calculation.  When this button is pressed, 
+windows needs to be cleaned as in the above picture.
 * For all buttons (numbers and functions), you will need to use Lambda functions.
 * All buttons need to be placed exactly same as above picture.
-* Entire Calculator size and button size should be larger than the picture since it was reduced to display without taking up too much space.
+* Entire Calculator size and button size should be larger than the picture since it was reduced to display without 
+taking up too much space.
 * You will need to use several functions.
 * Make sure to provide proper comments for the program.
 * Windows color needs to be different than button or frame color.
