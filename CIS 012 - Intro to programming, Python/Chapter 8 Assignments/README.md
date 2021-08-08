@@ -96,8 +96,8 @@ and **minutesList**, and returns **True**, **startHour** (integer), **startMinut
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**collectUserInputDay()**: accepts no arguments, collects a day (two characters) 
 save as **firstDayCharacter** and **secondDayCharacter**, and \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;returns **firstDayCharacter** and **secondDayCharacter** as string data type.  
-Allow uppercase and lowercase input (ex. MO, Mo, mo, and mO).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;returns **firstDayCharacter** and **secondDayCharacter** as string data type.  Allow 
+uppercase and lowercase input (ex. MO, Mo, mo, and mO).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**validateUserInputDay(firstDayCharacter, secondDayCharacter)**: accepts the 
 **firstDayCharacter** and **secondDayCharacter** returned by \
