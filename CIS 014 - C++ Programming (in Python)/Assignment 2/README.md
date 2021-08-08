@@ -1,18 +1,44 @@
-# Homework / Lab Assignments 1
+# Homework / Lab Assignments 2
 
-## Homework 1
-You are a banker and someone walks into a bank and gives you a stack of pennies --- hundreds of thousands of pennies, if you will --- and asks you to break them into the largest units of USD currency possible. Your customer also wants to know how much these pennies are worth in Canadian dollars.
+## Homework 2.1
+This problem is the SAME as your Homework Assignment #1 but **WITH** the use of breakCash() function and other twists. See the following **Constraints/Assumptions**. You will take your console program, and extract much of its computation logic into a separate breakCash() function with the following specification:
 
-For example, 123 pennies translates to 1 dollar, 2 dimes and 3 pennies. Additionally 123 US pennies correspond to 1.33 Canadian dollars with today's exchange rate.
-
-Your homework assignment is to write a simple console application that takes a user's numeric "pennies" input and returns a string output (using the USD units of currency).
-
-### Example Console Output
 <pre>
-Please enter all of your pennies:
-<b>8888</b>
-In US currency you have: 88 dollars, 3 quarters, 1 dime, 0 nickels, and 3 pennies.
-In Canadian currency you have: 118.210400 dollars.
+/**
+ * FUNCTION NAME: breakCash
+ * PURPOSE: the function takes in the total of pennies from the user as input, computes its equivalent in
+ * dollars, quarters, dimes, nickels, and pennies, and outputs the result in string to the console
+ * PARAMETER:
+ *     numPennies: int
+ * RETURN VALUE:
+ *     string: result in dollars, quarters, dimes, nickels, and pennies
+ * FUNCTION SINGATURE:
+ * breakCash(numPennies: int)
+ */
+</pre>
+
+PLEASE MAKE SURE THAT YOU HAVE THE EXACT breakCash FUNCTION SIGNATURE namely
+
+<pre>
+breakCash(numPennies: int)
+</pre>
+
+DO NOT modify, add, or delete any parameters, return type, or name of the function in your assignment. 
+
+HINTS:
+
+* You need to formulate, and build your output string in the breakCash() function
+* You do NOT print your string in breakCash()
+* You may use sprintf, stringstream, itoa, etc., the choice is up to you, to do string concatenation inside breakCash() to form your desired output string 
+* You then return the output string
+* Finally you cout the output string of breakCash() in main()
+* You will start with a console program with your main() function as your entry point; to invoke your breakCash(...) function the right away, your main() function should look like this:
+
+<pre>
+main():
+    print("Please enter all of your pennies: ")
+    numOfPennies = int(input())
+    print(breakCash(numOfPennies))
 </pre>
 
 ## Lab 1
