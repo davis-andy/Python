@@ -56,7 +56,7 @@ Done!
 
 ## Ch05-02
 1. Write a Python program that creates and stores a multiplication table in a list called **MT**, and then displays 
-2. elements.  Do NOT create additional lists.
+elements.  Do NOT create additional lists.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To create a list called **MT**, use the following:
 
@@ -450,8 +450,7 @@ function; accepts **firstNum** and **secondNum** as arguments and returns the su
 sum of the square of the odd numbers between **firstNum** \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and **secondNum** (use while loop).  **sumSquareOddNumbers()** is a 
 value returning function; accepts **firstNum** and **secondNum** as \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;arguments and returns the sum of the square of the odd numbers.  
-Declare a variable called **sumSquareOdd** in the **main()** to store the \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;arguments and returns the sum of the square of the odd numbers.  Declare a variable called **sumSquareOdd** in the **main()** to store the \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;returned value by **sumSquareOddNumbers()**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e. Create a user-defined function called **main()** to repeat a program (use 
