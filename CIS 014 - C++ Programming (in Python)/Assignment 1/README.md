@@ -19,13 +19,13 @@ In US currency you have: 88 dollars, 3 quarters, 1 dime, 0 nickels, and 3 pennie
 In Canadian currency you have: 118.210400 dollars.
 </pre>
 
-## Lab 1
+## Lab 1.1
 * Get your IDE (Integrated Development Environment) to work on a sample program on your computer (or any public 
 computer).
 * Create your first "Hello World" program, and compile it in the IDE. Please reference Chapter 2 in your textbook for 
 instructions
 
-## Lab 2
+## Lab 1.2
 Print to screen the following sentence:
 
 <pre>
