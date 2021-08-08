@@ -1,7 +1,8 @@
 # Chapter 3 Assignments
 
 ## Ch03-01
-1. Write a Python program that prompts the user to input three numbers.  The program should then output the numbers in ascending order.
+1. Write a Python program that prompts the user to input three numbers.  The program should then output the numbers 
+in ascending order.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\***__Do NOT use nested conditionals (nested-if).  Use one if-elif statment.__
 
@@ -86,7 +87,8 @@ Rock smashes scissor,
 Scissors cut paper,
 or Nobody wins.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\***__Use nested conditionals (nested-if).  Use the outer if for Player1, and the inner if for Player 2.__
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\***__Use nested conditionals (nested-if).  Use the outer if for Player1, and 
+the inner if for Player 2.__
 
 \*************************************************************************************
 

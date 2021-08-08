@@ -1,9 +1,11 @@
 # Chapter 2 Assignments
 
 ## Ch02-01
-1. Write Python Statements that declare the following variables: **num1**, **num2**, **num3**, and **average**.  Store **125** into **num1**, **28** into **num2**, and **-25** into **num3**.
+1. Write Python Statements that declare the following variables: **num1**, **num2**, **num3**, and **average**.  
+Store **125** into **num1**, **28** into **num2**, and **-25** into **num3**.
 
-2. Write Python statements that output the values of **num1**, **num2**, **num3**, and **average**.  Your program output must be exactly the same as the output in the OUTPUT section, except font style.
+2. Write Python statements that output the values of **num1**, **num2**, **num3**, and **average**.  Your program 
+output must be exactly the same as the output in the OUTPUT section, except font style.
 
 \*************************************************************************************
 
@@ -24,7 +26,8 @@ The average of num1, num2, and num3 is 42.67.
 \*************************************************************************************
 
 ## Ch02-02
-1. Write Python statements that declare the following variables: **firstName** of type string and **studyHours** of type float.  Prompt and input a string into **firstName** and a float value into **studyHours**.
+1. Write Python statements that declare the following variables: **firstName** of type string and **studyHours** of 
+type float.  Prompt and input a string into **firstName** and a float value into **studyHours**.
 
 2. Write a Python statement that output the following lines:
 Provided that the user entered **John** and **4.5**.
@@ -78,7 +81,8 @@ Salary: $443.75
 \*************************************************************************************
 
 ## Ch02-04
-1. Write a Python program that prompts the user to input the elapsed time for an event in seconds.  The program then outputs the elapsed time in hours, minutes, and seconds.  Hint: use // and %
+1. Write a Python program that prompts the user to input the elapsed time for an event in seconds.  The program then 
+outputs the elapsed time in hours, minutes, and seconds.  Hint: use // and %
 
 \*************************************************************************************
 
@@ -97,7 +101,10 @@ The equivalent time in hours:minutes:seconds = 2:40:30
 \*************************************************************************************
 
 ## Ch02-05
-1. A room has one door, two windows, and a built-in bookshelf and it needs to be painted.  Suppose that one gallon of paint can paint 120 swuare fett.  Write a Python program that prompts the user to input the lengths and widths of the door, each window, the bookshelf; and the length, width, and height of the room (in feet).  The program outputs the amount of paint needed to paint the walls of the room (no ceiling and floor).
+1. A room has one door, two windows, and a built-in bookshelf and it needs to be painted.  Suppose that one gallon 
+of paint can paint 120 swuare fett.  Write a Python program that prompts the user to input the lengths and widths of 
+the door, each window, the bookshelf; and the length, width, and height of the room (in feet).  The program outputs 
+the amount of paint needed to paint the walls of the room (no ceiling and floor).
 
 \*************************************************************************************
 

@@ -3,7 +3,8 @@
 ## Ch05-01
 1. Write a Python program that reads 10 integers and then finds and prints the sum of the even and off integers.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use a while loop to calculate.  Allow the user to repeat the program (use a while loop).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use a while loop to calculate.  Allow the user to repeat the program (use a while 
+loop).
 
 \*************************************************************************************
 
@@ -54,7 +55,8 @@ Done!
 \*************************************************************************************
 
 ## Ch05-02
-1. Write a Python program that creates and stores a multiplication table in a list called **MT**, and then displays elements.  Do NOT create additional lists.
+1. Write a Python program that creates and stores a multiplication table in a list called **MT**, and then displays 
+2. elements.  Do NOT create additional lists.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To create a list called **MT**, use the following:
 
@@ -65,9 +67,11 @@ Done!
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use three while loops (counter-controlled):
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use one while loop to add elemets to the **MT** list and set initial value to be **0**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use one while loop to add elemets to the **MT** list and set initial value to be 
+**0**.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use another while loop to change elements (Do NOT set values manually, except the first row and first column).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use another while loop to change elements (Do NOT set values manually, except the 
+first row and first column).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use the other to display elements.
 
@@ -98,14 +102,17 @@ X      1      2      3      4      5      6      7      8      9      10
 1. Create a program that uses **while** loops to perform the following steps.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Prompt the user to input two positive integers (no zero or negative). \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;variables: **firstNum** and **secondNum** (**firstNum** must be less than **secondNum**).  Validate the user's input; prompt the user again if \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;variables: **firstNum** and **secondNum** (**firstNum** must be less 
+than **secondNum**).  Validate the user's input; prompt the user again if \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**firstNum** is not less than **secondNum** (use while loop).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Output all odd numbers between **firstNum** and **secondNum**. (use while loop).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. Output the sum of all even numbers between **firstNum** and **secondNum**. (use while loop).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. Output the sum of all even numbers between **firstNum** and **secondNum**. 
+(use while loop).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. Output the sum of the square of the odd numbers between **firstNum** and **secondNum**. (use while loop).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. Output the sum of the square of the odd numbers between **firstNum** and 
+**secondNum**. (use while loop).
 
 <br />
 
@@ -257,14 +264,17 @@ Bye!
 1. Create a program that uses **for** loops to perform the following steps.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Prompt the user to input two positive integers (no zero or negative). \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;variables: **firstNum** and **secondNum** (**firstNum** must be less than **secondNum**).  Validate the user's input; prompt the user again if \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;variables: **firstNum** and **secondNum** (**firstNum** must be 
+less than **secondNum**).  Validate the user's input; prompt the user again if \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**firstNum** is not less than **secondNum** (use for loop).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Output all odd numbers between **firstNum** and **secondNum**. (use for loop).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. Output the sum of all even numbers between **firstNum** and **secondNum**. (use for loop).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. Output the sum of all even numbers between **firstNum** and **secondNum**. 
+(use for loop).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. Output the sum of the square of the odd numbers between **firstNum** and **secondNum**. (use for loop).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. Output the sum of the square of the odd numbers between **firstNum** and 
+**secondNum**. (use for loop).
 
 <br />
 
@@ -417,24 +427,37 @@ Bye!
 ## Ch05-05
 1. Create a program that uses **while** loops to perform the following steps.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Create a user-defined function called **validateUserInput()** to prompt the user to input two positive integers and validate the user's input. \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**validateUserInput()** is a value returning function; doesn't accept any arguments and returns **firstNum** and **secondNum**. \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Variables: **firstNum** and **secondNum** (**firstNume** must be less than **secondNum**). (use while loop to calidate and repeat).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Create a user-defined function called **validateUserInput()** to prompt the 
+user to input two positive integers and validate the user's input. \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**validateUserInput()** is a value returning function; doesn't accept 
+any arguments and returns **firstNum** and **secondNum**. \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Variables: **firstNum** and **secondNum** (**firstNume** must be less 
+than **secondNum**). (use while loop to calidate and repeat).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Create a user-defined function called **oddNumbers()** to output all odd numbers between **firstNum** and **secondNum** (use while loop). \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**oddNumbers()** is a void function; accepts **firstNum** and **secondNum** as arguments and doesn't return any values.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Create a user-defined function called **oddNumbers()** to output all odd 
+numbers between **firstNum** and **secondNum** (use while loop). \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**oddNumbers()** is a void function; accepts **firstNum** and 
+**secondNum** as arguments and doesn't return any values.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. Create a user-defined function called **sumEvenNumbers()** to output the sum of all even numbers between **firstNum** and **secondNum**  \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(use while loop).  **sumEvenNumbers()** is a value returning function; accepts **firstNum** and **secondNum** as arguments and returns the sum \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of all even numbers.  Declare a variable called **sumEven** in the **main()** to store the returned value by **sumEvenNumbers()**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. Create a user-defined function called **sumEvenNumbers()** to output the sum 
+of all even numbers between **firstNum** and **secondNum**  \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(use while loop).  **sumEvenNumbers()** is a value returning 
+function; accepts **firstNum** and **secondNum** as arguments and returns the sum \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of all even numbers.  Declare a variable called **sumEven** in the 
+**main()** to store the returned value by **sumEvenNumbers()**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. Create a user-defined function called **sumSquareOddNumbers()** to output the sum of the square of the odd numbers between **firstNum** \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and **secondNum** (use while loop).  **sumSquareOddNumbers()** is a value returning function; accepts **firstNum** and **secondNum** as \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;arguments and returns the sum of the square of the odd numbers.  Declare a variable called **sumSquareOdd** in the **main()** to store the \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. Create a user-defined function called **sumSquareOddNumbers()** to output the 
+sum of the square of the odd numbers between **firstNum** \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and **secondNum** (use while loop).  **sumSquareOddNumbers()** is a 
+value returning function; accepts **firstNum** and **secondNum** as \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;arguments and returns the sum of the square of the odd numbers.  
+Declare a variable called **sumSquareOdd** in the **main()** to store the \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;returned value by **sumSquareOddNumbers()**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e. Create a user-defined function called **main()** to repeat a program (use while loop) and execute the user-defined functions; \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**validateUserInput()**, **oddNumbers()**, **sumEvenNumbers()**, and **sumSquareOddNumbers()**.  **main()** is a void function; doesn't accept any \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e. Create a user-defined function called **main()** to repeat a program (use 
+while loop) and execute the user-defined functions; \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**validateUserInput()**, **oddNumbers()**, **sumEvenNumbers()**, 
+and **sumSquareOddNumbers()**.  **main()** is a void function; doesn't accept any \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;arguments.
 
 <br />
