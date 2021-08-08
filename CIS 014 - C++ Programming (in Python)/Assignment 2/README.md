@@ -29,16 +29,41 @@ HINTS:
 
 * You need to formulate, and build your output string in the breakCash() function
 * You do NOT print your string in breakCash()
-* You may use sprintf, stringstream, itoa, etc., the choice is up to you, to do string concatenation inside breakCash() to form your desired output string 
+* You may use any string formatting to do string concatenation inside breakCash() to form your desired output string 
 * You then return the output string
-* Finally you cout the output string of breakCash() in main()
+* Finally you print the output string of breakCash() in main()
 * You will start with a console program with your main() function as your entry point; to invoke your breakCash(...) function the right away, your main() function should look like this:
 
 <pre>
-main():
+def main():
     print("Please enter all of your pennies: ")
     numOfPennies = int(input())
     print(breakCash(numOfPennies))
+</pre>
+
+## Homework 2.2
+This problem is the reverse of (1) above with a small twist. Write a console application that takes the user's numeric input values for the following. You may write all of your code inside main(); no additional function is needed:
+
+* number of half dollars (NOT DOLLARS)
+* number of quarters
+* number of dimes
+* number of nickels
+* number of pennies
+
+And outputs the following:
+
+<pre>
+Enter half dollars: <b>23</b>
+
+Enter quarters: <b>4</b>
+
+Enter dimes: <b>26</b>
+
+Enter nickels: <b>2</b>
+
+Enter half dollars: <b>6</b>
+
+Enter half dollars: <b>23</b>
 </pre>
 
 ## Lab 1
