@@ -10,7 +10,7 @@ def breakCash(numPennies: int) -> str:
 
     sentence = f'In US currency you have: {dollars} dollars, {quarters} quarters, {dimes} dimes, {nickels} nickels, ' \
                f'and {pennies} pennies.\n'
-    sentence += f'In canadian currency you have: {cad} dollars.'
+    sentence += f'In canadian currency you have: {cad:.2f} dollars.'
 
     return sentence
 
