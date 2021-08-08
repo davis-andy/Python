@@ -95,10 +95,8 @@ implement the CanIAlwaysWin() function by returning either a true or false value
 
 <pre>
 def main():
-   int n = 0;
-   cout << "Enter a number: ";
-   cin >> n;
-   cout << "Can I win: "CanIAlwaysWin(n)
+   n = int(input("Enter a number: "))
+   print(f"Can I win: {CanIAlwaysWin(n)}")
 </pre>
 
 **Constraints and Assumptions:**
@@ -107,6 +105,6 @@ def main():
 * n is an integer less than INT_MAX.
 * This problem tests your use of basic human logics and pattern matching. 
 * You will implement your CanIAlwaysWin function which will be called from your console's main().
-* HINT: let's say n = 9, how many pebbles do you have to remove first to ensure your winning chance is 100%? Sure, you 
-can remove **1** first, but that will leave you to win or lose depending on what your opponent's move is next. So 
+* HINT: let's say n = 9, how many pebbles do you have to remove first to ensure your winning chance is 100%? Sure, 
+you can remove **1** first, but that will leave you to win or lose depending on what your opponent's move is next. So 
 removing 1 is not the key. How about removing 4 first? Will that guarantee your win?
