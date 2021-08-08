@@ -15,14 +15,14 @@ computation logic into a separate breakCash() function with the following specif
  * RETURN VALUE:
  *     string: result in dollars, quarters, dimes, nickels, and pennies
  * FUNCTION SIGNATURE:
- * def breakCash(numPennies: int)
+ * def breakCash(numPennies: int) -> str:
  */
 </pre>
 
 PLEASE MAKE SURE THAT YOU HAVE THE EXACT breakCash FUNCTION SIGNATURE namely
 
 <pre>
-def breakCash(numPennies: int)
+def breakCash(numPennies: int) -> str:
 </pre>
 
 DO NOT modify, add, or delete any parameters, return type, or name of the function in your assignment. 

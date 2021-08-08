@@ -17,7 +17,7 @@ You have a Python string of finite length consisting of only 'a' and 'b's in it.
 separate all of the 'a' and 'b' in the string so that all 'a' appear before 'b' in it:
 
 <pre>
-def separateLetters(string input); 
+def separateLetters(string input)
 </pre>
 
 The above sorted string becomes, for example: 
@@ -66,8 +66,8 @@ Output: ab
 * Do NOT use any existing Python sorting library for this problem (doing so will receive partial credits for logic)
 
 ## Homework 3.2
-What do you do with a pile of pebbles (little rocks)? You and your friend decide to play a game to remove these pebbles,
-one or several at a time, to prove that one of you is the Ultimate Strategist at PCC.
+What do you do with a pile of pebbles (little rocks)? You and your friend decide to play a game to remove these 
+pebbles, one or several at a time, to prove that one of you is the Ultimate Strategist at PCC.
 
 The game rules are:
 
@@ -76,31 +76,29 @@ The game rules are:
 * Each of you can remove 1 to 4 pebbles at each turn
 * The one who removes the last pebble will be the winner
 
-Write the following function, CanIAlwaysWin(int n), to see if you are always the winner given n as your starting 
+Write the following function, CanIAlwaysWin(n: int), to see if you are always the winner given n as your starting 
 quantity of pebbles.
 
 <pre>
-bool CanIAlwaysWin(int n) 
+def CanIAlwaysWin(n: int) -> bool: 
 </pre>
 
 For example:
 
 * n <= 4 returns true, you are the winner (since you can remove all 4 at once leaving your friend with none)
-* n = 5 returns false, you lose (no matter you remove 1, 2, 3, or 4 pebbles the last pebble will always be your friend's 
-to remove)
+* n = 5 returns false, you lose (no matter you remove 1, 2, 3, or 4 pebbles the last pebble will always be your 
+friend's to remove)
 * n = 6, n = 7, etc., what do you think?
 
-*NOTE: you WON'T need to write a game asking two users to take turns inputting numbers. Instead, you need to implement 
-the CanIAlwaysWin() function by returning either a true or false value. Your main() function may look like:*
+*NOTE: you WON'T need to write a game asking two users to take turns inputting numbers. Instead, you need to 
+implement the CanIAlwaysWin() function by returning either a true or false value. Your main() function may look like:*
 
 <pre>
-int main() {
+def main():
    int n = 0;
    cout << "Enter a number: ";
    cin >> n;
-   cout << "Can I win: " << CanIAlwaysWin(n);
-   return 0;
-}
+   cout << "Can I win: "CanIAlwaysWin(n)
 </pre>
 
 **Constraints and Assumptions:**
