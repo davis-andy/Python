@@ -19,33 +19,33 @@ def rightShiftElements(arr: list, N: int, M: int):
 
 **Examples:**
 
-input: {1,2}, 2, 1
+input: [1,2], 2, 1
 
-resulting arr: {2,1}
-
-<br />
-
-input: {1}, 1, 0
-
-resulting arr: {1}
+resulting arr: [2,1]
 
 <br />
 
-input: {1}, 1, 12
+input: [1], 1, 0
 
-resulting arr: {1}
-
-<br />
-
-input: {1, 2, 3, 4, 5, 6}, 6, 3
-
-resulting arr: {4,5,6,1,2,3}
+resulting arr: [1]
 
 <br />
 
-input: {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45}, 45, 56
+input: [1], 1, 12
 
-resulting arr: {35,36,37,38,39,40,41,42,43,44,45,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34}
+resulting arr: [1]
+
+<br />
+
+input: [1, 2, 3, 4, 5, 6], 6, 3
+
+resulting arr: [4,5,6,1,2,3]
+
+<br />
+
+input: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45], 45, 56
+
+resulting arr: [35,36,37,38,39,40,41,42,43,44,45,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34]
 
 <br />
 
@@ -94,7 +94,7 @@ http://www.cplusplus.com/reference/vector/vector/
 
 To overcome integral size limitation (INT_MAX, DOUBLE_MAX, etc) we want to devise a programmatic scheme to store a 
 number that can be VERY LARGE. To do that we have a positive number (N >= 0) whose digits are stored in a vector. For 
-instance 123 is stored as {1, 2, 3} in the vector. 54321 is stored as {5, 4, 3, 2, 1} in the vector. 
+instance 123 is stored as [1, 2, 3] in the vector. 54321 is stored as [5, 4, 3, 2, 1] in the vector. 
 
 <br />
 
@@ -107,51 +107,51 @@ def plusPlusN(v: list) -> list:
 
 **Examples:**
 
-input: {1,2}
+input: [1,2]
 
-output: {1,3}
-
-<br />
-
-input: {0}
-
-output: {1}
+output: [1,3]
 
 <br />
 
-input: {1}
+input: [0]
 
-output: {2}
-
-<br />
-
-input: {9}
-
-output: {1,0}
+output: [1]
 
 <br />
 
-input: {9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9}
+input: [1]
 
-output: {1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
-
-<br />
-
-input: {9,2,3,9}
-
-output: {9,2,4,0}
+output: [2]
 
 <br />
 
-input: {9,9,9,9}
+input: [9]
 
-output: {1,0,0,0,0}
+output: [1,0]
 
 <br />
 
-input: {2,9,9}
+input: [9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9]
 
-output: {3,0,0}
+output: [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+
+<br />
+
+input: [9,2,3,9]
+
+output: [9,2,4,0]
+
+<br />
+
+input: [9,9,9,9]
+
+output: [1,0,0,0,0]
+
+<br />
+
+input: [2,9,9]
+
+output: [3,0,0]
 
 <br />
 
@@ -168,7 +168,7 @@ vector<int> v that is passed-by-value into the function and return the modified 
 completely up to you how you handle your return value
 * Your main() function isn't graded; only the above referenced function is.
 * Failure to follow the same exact function signature receives -1 logic point deduction
-* You may have your test code in main(). The following is just an example using v = {9, 9}:
+* You may have your test code in main(). The following is just an example using v = [9, 9]:
 
 ```
 def main():
