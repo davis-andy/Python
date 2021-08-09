@@ -102,7 +102,7 @@ Write the following function that simulates ++N by taking in its vector represen
 function returns the result of ++N in its vector form:
 
 ```
-vector<int> plusPlusN(vector<int> v)
+def plusPlusN(v: list) -> list:
 ```
 
 **Examples:**
@@ -171,10 +171,7 @@ completely up to you how you handle your return value
 * You may have your test code in main(). The following is just an example using v = {9, 9}:
 
 ```
-int main() {
-    vector<int> v {9, 9};
-    vector <int> retVal = plusPlusN(v); // retVal = {1, 0, 0}
-    // insert you own assert or other test code here
-    return 0;
-}
+def main():
+    v = [9, 9]
+    retVal = plusPlusN(v)  # retVal = [1, 0, 0]
 ```
