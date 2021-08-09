@@ -12,20 +12,20 @@ vector.
 
 <br />
 
-Write the following function taking in an integer vector (vector<int> &prices) consisting of all prices, in 
-chronological order, for an hypothetical instrument. Your function recommends the maximum profit an investor can 
-make by placing **AT MOST one buy and one sell order** in the time slice represented by your input vector. Remember BUY 
+Write the following function taking in an integer array (prices: list) consisting of all prices, in 
+chronological order, for a hypothetical instrument. Your function recommends the maximum profit an investor can 
+make by placing **AT MOST one buy and one sell order** in the time slice represented by your input array. Remember BUY 
 LOW, SELL HIGH:
 
 ```
-int getMaxProfit(vector<int> &prices)
+def getMaxProfit(prices: list) -> int:
 ```
 
 <br />
 
 **Examples:**
 
-input: {1,2,4}
+input: [1,2,4]
 
 output: 3
 
@@ -33,7 +33,7 @@ _note on output: you'd buy $1, sell $4 => $3 profit_
 
 <br />
 
-input: {4,2,1}
+input: [4,2,1]
 
 output: 0
 
@@ -41,7 +41,7 @@ _note on output: you will not be able to buy low, sell high in this pricing orde
 
 <br />
 
-input: {1}
+input: [1]
 
 output: 0
 
@@ -50,7 +50,7 @@ you won't be able to sell it before market closes_
 
 <br />
 
-input: {1,2,5,1,6}
+input: [1,2,5,1,6]
 
 output: 5
 
@@ -58,7 +58,7 @@ _note on output: you'd buy $1, sell $6 => profit $5_
 
 <br />
 
-input: {3,1,5,2,4}
+input: [3,1,5,2,4]
 
 output: 4
 
@@ -71,10 +71,9 @@ _note on output: you'd buy $1, sell $5 => profit $4_
 * For this problem, there is **AT MOST** one buy and one sell (i.e., max of two orders, a "buy" order and a 
 "sell" order)
 * Prices are in USD ($) and are > 0
-* Input is passed in by reference
 * Max Profit (output) is defined as the max price difference between your buy and sell prices ($profit = ($sell - $buy))
 * __Input cannot be empty__ and it has at least one price data
-* Output is your max profit based on the input (vector<int>)
+* Output is your max profit based on the input
 * Food for thought: can you get your solution to within O(n)?
 
 ## Homework 7.2
@@ -83,20 +82,20 @@ slice AND you must sell one before you can buy another (except for the very firs
 
 <br />
 
-Write the following function taking in an integer vector (vector<int> prices) consisting of all prices, in 
-chronological order, for a hypothetical instrument. Your function will suggest the maximum profit a investor can make 
-by placing **AS MANY buy-sell orders as you may** in the given time slice your input vector represents. Remember BUY 
+Write the following function taking in an integer array (prices: list) consisting of all prices, in 
+chronological order, for a hypothetical instrument. Your function will suggest the maximum profit an investor can make 
+by placing **AS MANY buy-sell orders as you may** in the given time slice your input array represents. Remember BUY 
 LOW, SELL HIGH:
 
 ```
-int getMaxProfit(vector<int> &prices)
+def getMaxProfit(prices: list) -> int:
 ```
 
 <br />
 
 **Examples:**
 
-input: {1,2,4}
+input: [1,2,4]
 
 output: 3
 
@@ -104,7 +103,7 @@ _note on output: buy $1, sell $2, buy $2, sell $4 => $1+$2 = $3 profit_
 
 <br />
 
-input: {4,2,1}
+input: [4,2,1]
 
 output: 0
 
@@ -112,7 +111,7 @@ _note on output: you will not be able to buy low, sell high in this pricing orde
 
 <br />
 
-input: {1}
+input: [1]
 
 output: 0
 
@@ -121,7 +120,7 @@ you won't be able to sell it before market closes_
 
 <br />
 
-input: {1,2,5,1,6}
+input: [1,2,5,1,6]
 
 output: 9
 
@@ -129,7 +128,7 @@ _note on output: buy $1, sell $2, buy $2, sell $5, buy $1, sell $6 => $1 + $3 + 
 
 <br />
 
-input: {3,1,5,2,4}
+input: [3,1,5,2,4]
 
 output: 6
 
@@ -147,5 +146,5 @@ with, and you are making small incremental profits by selling high like a day tr
 * Input is passed in by reference
 * Max Profit (output) is defined as the max price difference between your buy and sell prices ($profit = ($sell - $buy))
 * __Input cannot be empty__ and it has at least one price data
-* Output is your max profit based on the input (vector<int>)
+* Output is your max profit based on the input
 * Food for thought: can you get your solution to within O(n)?
