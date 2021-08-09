@@ -18,7 +18,7 @@ Write the following function (please follow the **EXACT** function signature) th
 ver1 and ver2, of a software product to determine which product version is the latest:
 
 <pre>
-int compareVersions(string ver1, string ver2)
+def compareVersions(ver1: str, ver2: str) -> int:
 </pre>
 
 * If ver1 > ver2: return 1
@@ -57,13 +57,10 @@ for more information
 * You may test your function in the following fashion, for example:
 
 <pre>
-int main()  
-{
-   cout << compareVersions("1.0", "1.1") << endl;
-   cout << compareVersions("2.0", "2.0.1") << endl;
+def main():
+   print(compareVersions("1.0", "1.1"))
+   print(compareVersions("2.0", "2.0.1"))
    ...
-   return 0;
-}
 </pre>
 
 **EXTRA CREDIT:** Extend your compareVerisions(string, string) function to support long version numbers 
@@ -77,10 +74,10 @@ function:
 
 <pre>
 /**
-* FUNCTION SIGNATURE: string getSecretMessage(string str)
+* FUNCTION SIGNATURE: def getSecretMessage(s: str) -> str:
  * PURPOSE: get secret message by taking the first character from each word in the input sentence, in the order they appear
  * PARAMETER:
- *     str, the input sentence 
+ *     s, the input sentence 
  * RETURN VALUE:
  *     The secret message
 */
@@ -117,24 +114,19 @@ secret message is "" since there are no words in the input sentence)
 
 **Constraints / Assumptions:**
 
-* For this problem, you may use ANY C/C++ libraries
-* Your input sentence is a collection of words consisting of only lowercase English characters ('a' - 'z') and spaces (' ').
+* For this problem, you may use ANY Python libraries
+* Your input sentence is a collection of words consisting of only lowercase English characters ('a' - 'z') and 
+spaces (' ').
 * There may be multiple spaces between words.
 * A sentence may consist of only spaces
 * If there is no secret message to be generated, the function returns ""
-* Failure to follow the same exact function signature receives -1 logic point deduction
 * A sentence will contain between 1 and 50 characters
-* Your main() function isn't graded; only the above-referenced function is
-* Failure to follow the same exact function signature receives -1 logic point deduction
 * You can test your function in the following fashion, for example:
 
 <pre>
-int main()  
-{
-   cout << getSecretMessage("professor can code") << endl; // prints "pcc"
-   cout << getSecretMessage("                ") << endl;  // prints nothing
-   cout << getSecretMessage("pasadena") << endl;  // prints "p"
+def main():
+   print(getSecretMessage("professor can code"))  # prints "pcc"
+   print(getSecretMessage("                "))  # prints nothing
+   print(getSecretMessage("pasadena"))  # prints "p"
    ...
-   return 0;
-}
 </pre>
