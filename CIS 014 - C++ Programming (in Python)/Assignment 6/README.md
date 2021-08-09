@@ -53,17 +53,17 @@ resulting arr: {35,36,37,38,39,40,41,42,43,44,45,1,2,3,4,5,6,7,8,9,10,11,12,13,1
 
 ```
 def main():
-   arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
-   size = len(arr)
-   rightShiftElements(arr, size, 1);
-   print('[', end='\r')
-   for i in range(size):
-      print(arr[i], end='\r')
-      if i == size-1:
-          print("")
-      else:
-          print(',')
-   print(']')
+    arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+    size = len(arr)
+    rightShiftElements(arr, size, 1);
+    print('[', end='\r')
+    for i in range(size):
+        print(arr[i], end='\r')
+        if i == size-1:
+            print("")
+        else:
+            print(',')
+    print(']')
 ```
 
 <br />
