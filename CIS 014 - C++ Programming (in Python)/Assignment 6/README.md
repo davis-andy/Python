@@ -70,22 +70,21 @@ def main():
 
 **Constraints / Assumptions:**
 
-* Your inputs come straight from main(...) **NOT** cin, getline(...), etc., inside the above given function you have 
-to write
-* This problem tests your understanding of how array works in C/C++
-* For this problem you will operate your solution directly on arr[]. **DO NOT create another array in 
+* Your inputs come straight from main(...) **NOT** input(), etc., inside the above given function you have to write
+* This problem tests your understanding of how array works in Python
+* For this problem you will operate your solution directly on arr. **DO NOT create another array in 
 rightShiftElements() for this problem.** This is the reason why rightShiftElements(...) is a void function. **NOTE:** 
 recall array is passed into every function by "pointer", namely your function actually has a handle to where the 
 original array is located. Any changes made to the array inside your function changes the original array outside of 
 the function.
 * Each right shift moves all of the elements to the right by one index, with the exception of the last element which 
 moves into index 0
-* The arr[] array is not empty, or N > 0
+* The array is not empty, or N > 0
 * The number of elements to right shift M >= 0
 * There is nothing to print or return in the function, which should simply satisfy the logic requirement by shifting 
 elements to right M times
-* arr[], when passed into the function, is decayed to a pointer that points to the first element of the array which 
-means if you make modification to it in the function the original arr[] in main() will also change
+* arr, when passed into the function, is decayed to a pointer that points to the first element of the array which 
+means if you make modification to it in the function the original arr in main() will also change
 
 ## Homework 6.2
 std::vector (available via #include <vector>) is a template class and a C++ construct. Vector is a dynamic array 
