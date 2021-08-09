@@ -60,7 +60,7 @@ def main():
     for i in range(size):
         print(arr[i], end='')
         if i == size-1:
-            print("", end='')
+            print('', end='')
         else:
             print(',', end=' ')
     print(']')
