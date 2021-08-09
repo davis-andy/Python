@@ -8,11 +8,11 @@ integer >= 0.
 
 <br />
 
-Write the following function taking in an integer array (arr[]), its length (N), and the number of elements to 
+Write the following function taking in an integer array (arr), its length (N), and the number of elements to 
 right-shift (M):
 
 <pre>
-void rightShiftElements(int arr[], int N, int M)
+def rightShiftElements(arr: list, N: int, M: int):
 </pre>
 
 <br />
@@ -21,50 +21,49 @@ void rightShiftElements(int arr[], int N, int M)
 
 input: {1,2}, 2, 1
 
-resulting arr[]: {2,1}
+resulting arr: {2,1}
 
 <br />
 
 input: {1}, 1, 0
 
-resulting arr[]: {1}
+resulting arr: {1}
 
 <br />
 
 input: {1}, 1, 12
 
-resulting arr[]: {1}
+resulting arr: {1}
 
 <br />
 
 input: {1, 2, 3, 4, 5, 6}, 6, 3
 
-resulting arr[]: {4,5,6,1,2,3}
+resulting arr: {4,5,6,1,2,3}
 
 <br />
 
 input: {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45}, 45, 56
 
-resulting arr[]: {35,36,37,38,39,40,41,42,43,44,45,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34}
+resulting arr: {35,36,37,38,39,40,41,42,43,44,45,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34}
 
 <br />
 
 **How to test (example):**
 
 ```
-int main() {
-   int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
-   int size = sizeof(arr)/sizeof(arr[0]);
+def main():
+   arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+   size = len(arr)
    rightShiftElements(arr, size, 1);
-   cout << "[";
-   for (int i=0; i<size; i++) {
-      cout << arr[i]; cout << ((i==size-1) ? "" : ",");
-   }
-   cout << "]";
-   // or you can write your assert() to validate - what you do here is 
-   // completely up to you
-   return 0;
-}
+   print('[', end='\r')
+   for i in range(size):
+      print(arr[i], end='\r')
+      if i == size-1:
+          print("")
+      else:
+          print(',')
+   print(']')
 ```
 
 <br />
