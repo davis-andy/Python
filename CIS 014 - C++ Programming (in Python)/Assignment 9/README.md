@@ -98,7 +98,7 @@ requires 2 'B's.
 * Each address contains between 1 and 50 characters inclusive
 * Each character in each address will be an uppercase letter 'A'-'Z' or a digit '0'-'9'or a space '&nbsp;&nbsp;&nbsp;'
 
-## Homework 9.2
+## Homework 9.2 (in progress)
 You are given an input string and a dictionary of English words. You are asked to see if the input is consisted 
 of words only in the dictionary. For example:
 
