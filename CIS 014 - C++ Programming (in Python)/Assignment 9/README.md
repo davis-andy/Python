@@ -13,7 +13,7 @@ declaration with the member function:
 
 <pre>
 class CIS14:
-    def getNumPossibleSigns(letterInventory: str, addresses: list, length: int) -> int:
+    def getNumPossibleSigns(self, letterInventory: str, addresses: list, length: int) -> int:
 </pre>
 
 In addition the member function documentation is as follows: 
@@ -148,7 +148,7 @@ if the given input is composed of only the words from the input dictionary:
 
 ```
 class CIS14:
-   def isInputInDictionary(s: str, dic: dict) -> bool:
+   def isInputInDictionary(self, s: str, dic: dict) -> bool:
 ```
 <br />
 
