@@ -17,28 +17,26 @@ isn't possible since the ball can only travel to either 3 or 8 in the row below.
 Write the following member function, getMaxPoints(vector<vector<int>> &maze), inside the specific class named CIS14:
 
 ```
-class CIS14 {
-public:
-     int getMaxPoints(vector<vector<int>> &maze);
-};
+class CIS14:
+    def getMaxPoints(self, maze: list) -> int
 ```
 
 Your solution should produce the max amount of points possible by launching a ball to fall from the top to the bottom 
 drain. Your maze can be populated in the following fashion, for example:
 
 ```
-vector<vector<int>> maze = {{2}, {4,1}, {5,3,8}, {1,6,7,3}}; 
+maze = [[2], [4, 1], [5, 3, 8], [1, 6, 7, 3]] 
 ```
 
 **Examples:**
 
-maze = {{0}, {4,1}, {5,3,8}, {1,6,7,3}}; // output = 16
+maze = [[0], [4, 1], [5, 3, 8], [1, 6, 7, 3]]  # output = 16
 
-maze = {{1}, {1,1}, {1,1,1}, {1,1,1,1}}; // output = 4
+maze = [[1], [1, 1], [1, 1, 1], [1, 1, 1, 1]]  # output = 4
 
-maze = {{3}, {7,4}, {2,4,6}, {8,5,9,3}}; // output = 23
+maze = [[3], [7, 4], [2, 4, 6], [8, 5, 9, 3]]  # output = 23
 
-maze = {{1}, {1,22305}, {1,29394,1}, {1,1,1234,1}, {1,1,3,1,10}}; // output = 52937
+maze = [[1], [1, 22305], [1, 29394, 1], [1, 1, 1234, 1], [1, 1, 3, 1, 10]]  # output = 52937
 
 **Assumptions & Constraints:**
 
@@ -49,9 +47,8 @@ maze = {{1}, {1,22305}, {1,29394,1}, {1,1,1234,1}, {1,1,3,1,10}}; // output = 52
 * Elements in the array have values that are signed integer (either positive or negative) within the signed integer 
 limits
 * The ball at the Nth peg can only travel to either the Nth or (N+1)th peg in the row below
-* You should use std::vector to help you manage your 2D array: http://www.cplusplus.com/reference/vector/vector/
-* Your input is a vector array of vectors. **Your member function should account for empty vector array, and an array 
-of any empty vectors! Remember each row in the pyramid must have one more element than the row preceding it.**
+* Your input is an array of arrays. **Your member function should account for an empty array, and an array 
+of any empty arrays! Remember each row in the pyramid must have one more element than the row preceding it.**
 * __When input is empty, your function should return 0__
 
 ## Homework 10.2
@@ -90,36 +87,33 @@ common path begins at C.
 Generalizing this your system is capable of suggesting people to meet at the nearest common waypoint on the path to 
 the same destination. Each path is a linked list.
 
-Write the following program that outputs the closest common waypoint from any given two path input, Node* A and Node* B:
+Write the following program that outputs the closest common waypoint from any given two path input, Node A and Node B:
 
 <pre>
-class CIS14 {
-public:
-    Node* getClosestCommonWaypoint(Node* A, Node* B);
+class CIS14:
+    def getClosestCommonWaypoint(self, Node A, Node B) -> Node:
 };
 </pre>
 
-Supposedly each of these waypoints is represented in the C++ class as follows, with each waypoint having just one 
+Supposedly each of these waypoints is represented in the Python class as follows, with each waypoint having just one 
 value (integer) and the pointer pointing to the adjacent (next) waypoint:
 
 <pre>
-class Node {
-public:
-    int value;
-    Node* next;
-    Node(int v) : value(v), next(NULL) {}
-};
+class Node:
+    value: int
+    next: Node
+    Node(v: int) : value(v), next(NULL)
 </pre>
 
 **Hints:**
 
 * How you create your test cases is completely up to you - this is just a suggestion. Your Node instance with any 
-arbitrary value you want it to have can be instantiated on stack. Similarly your link list of two nodes can be created 
-as follows (note each list ends with a nullptr at its destination):
+arbitrary value you want it to have can be instantiated on stack. Similarly, your link list of two nodes can be created 
+as follows:
 
 <pre>
-Node a(10), a1(11);
-a.next=&a1; a1.next=nullptr;
+a, a1 = Node(10), Node(11)
+a.next=a1; a1.next=NULL;
 </pre>
 
 **Constraints and Assumptions:**
@@ -128,6 +122,6 @@ a.next=&a1; a1.next=nullptr;
 * The output should be the same node as the one in the original list; you shouldn't dynamically create one - return the 
 same node from the original list
 * There cannot be multiple common paths in your input
-* Input can be a NULL pointer so be sure to check it!
+* Input can be NULL so be sure to check it!
 * The input paths MUST retain their original structure and values after the function returns
 * Each path is uni-directional (singly); it won't loop back to any prior node in the same path
