@@ -3,21 +3,19 @@
 ## Homework 8.1
 **Reverse an integer:**
 
-You will write a class CIS14 and implement its public member function, int reverseInt(int), to reverse an integer. Your 
-program **MUST** include this CIS14 class declaration with its public member function **BEFORE** the placement of your 
-main() function. Remember, no header file (.h files) is necessary:
+You will write a class CIS14 and implement its public member function, def reverseInt(inp: int) -> int, to reverse an 
+integer. Your program **MUST** include this CIS14 class declaration with its public member function **BEFORE** the 
+placement of your main() function. Remember, no imported file is necessary:
 
 <pre>
-class CIS14 {
-public:
-   int reverseInt(int input);
-};
+class CIS14:
+    def reverseInt(inp: int) -> int:
 </pre>
 
 Member function to implement:
 
 <pre>
-int reverseInt(int input)
+def reverseInt(inp: int) -> int:
 </pre>
 
 <br />
@@ -77,19 +75,15 @@ if your input is 1000000119  its reverse will not be acceptable
 problem, 01 is equivalent to 1, 001 is 1, and so on.
  
 <pre>
-/*
- * EXAMPLE (you may choose to have your own implementation style in main())
- */
-int main() {
-   // instantiate an instance of CIS14 class
-   CIS14 cis14;
+ # EXAMPLE (you may choose to have your own implementation style in main())
+ 
+def main():
+   # instantiate an instance of CIS14 class
+   CIS14: cis14
 
-   // invoke this instance's member function one  by one
-   cout << cis14.reverseInt(1) << endl;
-   cout << cis14.reverseInt(123) << endl;
-   ...
-   return 0;
-}
+   # invoke this instance's member function one  by one
+   print(cis14.reverseInt(1))
+   print(cis14.reverseInt(123))
 </pre>
 
 ## Homework 8.2
@@ -98,7 +92,7 @@ int main() {
 Write the following function:
 
 <pre>
-int convertString2Integer(string str)
+def convertString2Integer(s: str) -> int:
 </pre>
 
 Example #1:
@@ -133,19 +127,13 @@ return: 12
 characters.
 * Your string input **CAN** have leading zeros, namely "01", "0000000000000124", etc; in which case your function 
 should return 1, 124, etc.
-* You **CANNOT** use any string-to-integer library functions (namely atoi(), stoi(), stringstream(), etc.) for this 
-problem.
+* You **CANNOT** use any string-to-integer library functions for this problem.
 
 <pre>
-/*
- * EXAMPLE (you may choose to have your own implementation style in main())
- */
-int main() {
-  cout << convertString2Integer("123");
-  cout << convertString2Integer("-999");
-  ...
-  return 0;
-}
+ # EXAMPLE (you may choose to have your own implementation style in main())
+def main():
+  print(convertString2Integer("123"))
+  print(convertString2Integer("-999"))
 </pre>
 
 ## Homework 8.3
@@ -157,22 +145,22 @@ number of possible ways (namely, total combination) you can use these bricks to 
 the sake of illustration, these heights are unit-less; they are relative to the size of 2x4):
 
 ```
-int getLegoCombinations(vector<int> &lego_heights, int target_height)
+def getLegoCombinations(lego_heights: list, target_height: int) -> int:
 ```
 
 **Examples:**
 
-input: {1,2,5}, 3
+input: [1,2,5], 3
 
 output: 2
 
 Explanation: you have 3 lego bricks of height 1, 2, and 5, respectively. You are asked to build a wall of height 3. 
-There are 2 ways (output) to accomplish this by stacking up your bricks like this: {1,1,1}, {1,2}. Note the piece with 
+There are 2 ways (output) to accomplish this by stacking up your bricks like this: [1,1,1], [1,2]. Note the piece with 
 height 5 is never used because its use is not possible.
 
 <br />
 
-input: {1,2,5}, 0
+input: [1,2,5], 0
 
 output: 0
 
@@ -180,27 +168,27 @@ Explanation: there is nothing to build (target height of 0), hence returning 0.
 
 <br />
 
-input: {1,2,5}, 7
+input: [1,2,5], 7
 
 output: 6
 
 Explanation: there are 6 possible ways as follows:
 
-{1,1,1,1,1,1,1}
+[1,1,1,1,1,1,1]
 
-{1,1,1,1,1,2}
+[1,1,1,1,1,2]
 
-{1,1,1,2,2}
+[1,1,1,2,2]
 
-{1,2,2,2}
+[1,2,2,2]
 
-{1,1,5}
+[1,1,5]
 
-{2,5}
+[2,5]
 
 <br />
 
-input: {5}, 9
+input: [5], 9
 
 output: 0
 
@@ -210,10 +198,10 @@ Explanation: height denomination provided can never reach 9, hence returning 0.
 
 **Constraints / Assumptions:**
 
-* Input vector with integral denominations of lego_heights is never empty.
+* Input list with integral denominations of lego_heights is never empty.
 * 0 <= target_height <= INT_MAX.
 * lego_height is always integral and >= 1.
 * Your lego supply (of indicated denominations) is unlimited.
 * HINT: this solution calls for Dynamic Programming. Given an integer array, solutions,  where solutions[target_height] 
-* is the total combination at the target height, your answer should be obtained via solutions[target_height - height#1] 
-+ solutions[target_height - height#2] + solutions[target_height - height#3] + ....
+is the total combination at the target height, your answer should be obtained via
+solutions[target_height - height#1] + solutions[target_height - height#2] + solutions[target_height - height#3] + ....
