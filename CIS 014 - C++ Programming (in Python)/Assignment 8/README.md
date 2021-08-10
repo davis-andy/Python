@@ -1,6 +1,6 @@
 # Homework Assignments 8
 
-## Homework 8.1 (incorrect)
+## Homework 8.1 (incorrect / not attempted in Python)
 **Reverse an integer:**
 
 You will write a class CIS14 and implement its public member function, def reverseInt(inp: int) -> int, to reverse an 
