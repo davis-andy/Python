@@ -9,13 +9,13 @@ placement of your main() function. Remember, no imported file is necessary:
 
 <pre>
 class CIS14:
-    def reverseInt(inp: int) -> int:
+    def reverseInt(self, inp: int) -> int:
 </pre>
 
 Member function to implement:
 
 <pre>
-def reverseInt(inp: int) -> int:
+def reverseInt(self, inp: int) -> int:
 </pre>
 
 <br />
@@ -79,7 +79,7 @@ problem, 01 is equivalent to 1, 001 is 1, and so on.
  
 def main():
    # instantiate an instance of CIS14 class
-   CIS14: cis14
+   cis14 = CIS14()
 
    # invoke this instance's member function one  by one
    print(cis14.reverseInt(1))
