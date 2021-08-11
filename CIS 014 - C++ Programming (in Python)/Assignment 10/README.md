@@ -51,7 +51,7 @@ limits
 of any empty arrays! Remember each row in the pyramid must have one more element than the row preceding it.**
 * __When input is empty, your function should return 0__
 
-## Homework 10.2
+## Homework 10.2 (need to convert to Python)
 GPS has become popular in recent decade. GPS systems are increasingly used to create and use waypoints in navigation of 
 all kinds (http://en.wikipedia.org/wiki/Waypoint). Waypoints are sets of coordinates that 
 identify a point in physical space. Some waypoints may be points of interest on the map specifying landmarks, 
