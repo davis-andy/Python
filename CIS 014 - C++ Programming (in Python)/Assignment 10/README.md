@@ -18,7 +18,7 @@ Write the following member function, getMaxPoints(vector<vector<int>> &maze), in
 
 ```
 class CIS14:
-    def getMaxPoints(self, maze: list) -> int
+    def getMaxPoints(self, maze: list) -> int:
 ```
 
 Your solution should produce the max amount of points possible by launching a ball to fall from the top to the bottom 
@@ -92,7 +92,6 @@ Write the following program that outputs the closest common waypoint from any gi
 <pre>
 class CIS14:
     def getClosestCommonWaypoint(self, Node A, Node B) -> Node:
-};
 </pre>
 
 Supposedly each of these waypoints is represented in the Python class as follows, with each waypoint having just one 
@@ -113,7 +112,8 @@ as follows:
 
 <pre>
 a, a1 = Node(10), Node(11)
-a.next=a1; a1.next=NULL;
+a.next=a1
+a1.next=NULL
 </pre>
 
 **Constraints and Assumptions:**
