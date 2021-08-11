@@ -1,7 +1,7 @@
 def getTotalWaterAmount(arr: list, size: int) -> int:
     length = size - 1
     elev = arr[0]
-    elevIndex = 0
+    elevIndex = 0  # for max peak
     totalWater = 0
     temp = 0
 
