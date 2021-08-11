@@ -1,6 +1,6 @@
 # Homework Assignment 12
 
-## Homework 12.1
+## Homework 12
 From your prior assignment you studied California's drought problem and came up with your solution to calculate how 
 much water retention there is in a given topographic terrain whenever it rains. In that problem your 1D terrain was 
 represented by an integer array such as
