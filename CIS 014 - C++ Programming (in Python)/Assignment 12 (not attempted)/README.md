@@ -133,7 +133,6 @@ output: 140
 * Why is the following true? 
   * R = map.size(); 
   * C = map[0].size();
-
 * map[0][0] gives you the elevation at row=0 and column=0.
 * You may use your typical FOR-loop as you would with any array to iterate through this 2D map.
 * At any given cell in the terrain matrix, water accumulates only if all 4 neighbors of that cell are higher than it 
